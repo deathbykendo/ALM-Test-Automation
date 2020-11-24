@@ -30,8 +30,9 @@ WebUI.setText(findTestObject('Page_My Dashboard/input_MIP_js-site-search-input')
 
 WebUI.click(findTestObject('Page_My Dashboard/Search button'))
 
-WebUI.setText(findTestObject('Page_My Dashboard/input_MIP_js-site-search-input'), "tiger")
+WebUI.setText(findTestObject('Page_My Dashboard/input_MIP_js-site-search-input'), "fosters")
 
 WebUI.click(findTestObject('Page_My Dashboard/Search button'))
 
 
+WebUI.setText(findTestObject('Page_My Dashboard/input_MIP_js-site-search-input'), "vb")
