@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Login username</description>
+      <initValue>'78259099'</initValue>
+      <name>G_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12341234'</initValue>
+      <name>G_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://testportal2.almliquor.com.au/customer'</initValue>
+      <name>URL_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://testportal2.almliquor.com.au/customer/register'</initValue>
+      <name>URL_registration</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Test product VB beer</description>
+      <initValue>'500767'</initValue>
+      <name>beer1_prodcode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Test product 2 Coopers beer</description>
+      <initValue>'504703'</initValue>
+      <name>beer2_prodcode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'VB STUBBIES 375ML'</initValue>
+      <name>beer1_desc</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'COOPERS SPK ALE BTL 375ML'</initValue>
+      <name>beer2_desc</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>2</initValue>
+      <name>short_wait_time</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[('desc') : 'VB STUBBIES 375ML', ('prodcode') : '500767']</initValue>
+      <name>product_VB</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[('desc') : 'COCA COLA 1.25L', ('prodcode') : '013011']</initValue>
+      <name>product_coke</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[('desc') : 'JAMESON IRISH WHISKY 200ML', ('prodcode') : '738085']</initValue>
+      <name>product_Jameson</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>6</initValue>
+      <name>medium_wait_time</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'cooper'</initValue>
+      <name>Search_term_default</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'beer'</initValue>
+      <name>default_category</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

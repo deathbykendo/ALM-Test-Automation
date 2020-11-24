@@ -1,0 +1,9 @@
+{"testCaseName":"Test Cases/Login/Check Forgotten password page","testCaseId":"Test Cases/Login/Check Forgotten password page"}
+{"testCaseName":"Test Cases/Login/Check invalid username password","testCaseId":"Test Cases/Login/Check invalid username password"}
+{"testCaseName":"Test Cases/_Common/_Login","testCaseId":"Test Cases/_Common/_Login"}
+{"testCaseName":"Test Cases/_Common/_Browse_Beer","testCaseId":"Test Cases/_Common/_Browse_Beer"}
+{"testCaseName":"Test Cases/_Common/_AddToCart_Favourites","testCaseId":"Test Cases/_Common/_AddToCart_Favourites"}
+{"testCaseName":"Test Cases/_Common/_Browse_Wine","testCaseId":"Test Cases/_Common/_Browse_Wine"}
+{"testCaseName":"Test Cases/_Common/_AddToCart_Browse","testCaseId":"Test Cases/_Common/_AddToCart_Browse"}
+{"testCaseName":"Test Cases/_Common/_AddToCart_Favourites","testCaseId":"Test Cases/_Common/_AddToCart_Favourites"}
+{"testCaseName":"Test Cases/MyCart/_EmptyCart","testCaseId":"Test Cases/MyCart/_EmptyCart"}
