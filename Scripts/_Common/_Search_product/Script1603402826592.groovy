@@ -16,8 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('_Goto_page/_Goto_Home_page'), [:], FailureHandling.STOP_ON_FAILURE)
-
 // If no search_term passed set default one
 try {
     search_term
@@ -30,9 +28,5 @@ WebUI.setText(findTestObject('Page_My Dashboard/input_MIP_js-site-search-input')
 
 WebUI.click(findTestObject('Page_My Dashboard/Search button'))
 
-WebUI.setText(findTestObject('Page_My Dashboard/input_MIP_js-site-search-input'), "fosters")
+WebUI.verifyTextNotPresent('we couldn\'t find any results for your search', false)
 
-WebUI.click(findTestObject('Page_My Dashboard/Search button'))
-
-
-WebUI.setText(findTestObject('Page_My Dashboard/input_MIP_js-site-search-input'), "vb")

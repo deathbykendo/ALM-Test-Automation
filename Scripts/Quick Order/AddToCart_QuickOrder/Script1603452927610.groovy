@@ -27,17 +27,28 @@ catch (Exception ex) {
 //#> Future: if they pass an array of prodcodes add them all
 WebUI.callTestCase(findTestCase('_Goto_page/_Goto_QuickOrder_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_Quick Order/input_Item code_js-sku-input-field js-quick-order-qty form-control newRow text-left'), 
-    prod_code)
+['Cat', 'Dog', 'Elephant'].each {
+	println "Animal ${it}"
+}
 
+WebUI.setText(findTestObject('Page_Quick Order/product input field 1'),    prod_code)
+// Take the focus out of the input field by clicking here
 WebUI.click(findTestObject('Page_Quick Order/h2_Quick Order'))
 
 // #> for some reason you have to enter the same object twice to add in the qty
-WebUI.setText(findTestObject('Page_Quick Order/input_Item code_js-sku-input-field js-quick-order-qty form-control newRow text-left'), 
-    '1')
-
-//WebUI.sendKeys(findTestObject('Page_Quick Order/input_Cartons_form-control'), '1')
+WebUI.setText(findTestObject('Page_Quick Order/product input field 1'), '1')
+// Take the focus out of the input field by clicking here
 WebUI.click(findTestObject('Page_Quick Order/h2_Quick Order'))
+
+WebUI.setText(findTestObject('Page_Quick Order/product input field 2'),    '577536'	)
+// Take the focus out of the input field by clicking here
+WebUI.click(findTestObject('Page_Quick Order/h2_Quick Order'))
+
+// #> for some reason you have to enter the same object twice to add in the qty
+WebUI.setText(findTestObject('Page_Quick Order/product input field 2'), '1')
+// Take the focus out of the input field by clicking here
+WebUI.click(findTestObject('Page_Quick Order/h2_Quick Order'))
+
 
 WebUI.click(findTestObject('Page_Quick Order/button_Add to Cart'))
 

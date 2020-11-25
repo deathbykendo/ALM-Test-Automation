@@ -16,18 +16,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-//---------------------------------------------------------------
-// Returns the the carton count from the mini cart (top right) 
-//---------------------------------------------------------------
-// #> Broken ATM waiting on ID tag on Carton mini cart (FIX-02) 
-// Strip everything but numbers from the string
-cartonCount = WebUI.getText(findTestObject('Page_My Dashboard/span_Cartons MiniCart'))
+WebUI.callTestCase(findTestCase('_Goto_page/_Goto_AggregateList_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-// Get the number from the string and store in global var
-mycart_carton_count = cartonCount.replaceAll('[^0-9]', '')
+WebUI.sendKeys(findTestObject('Page_BEER  LIQUOR  Open Catalogue/input_Cartons_innerAddToCartFormList0.cartonQty'), '1')
 
+WebUI.sendKeys(findTestObject('Page_BEER  LIQUOR  Open Catalogue/input_Cartons_innerAddToCartFormList1.cartonQty'), '2')
 
-println('>> Carton_count: ' + mycart_carton_count)
+WebUI.sendKeys(findTestObject('Page_BEER  LIQUOR  Open Catalogue/input_Cartons_innerAddToCartFormList2.cartonQty'), '3')
 
-return mycart_carton_count
+WebUI.sendKeys(findTestObject('Page_BEER  LIQUOR  Open Catalogue/input_Cartons_innerAddToCartFormList3.cartonQty'), '4')
 
+WebUI.click(findTestObject('Page_BEER  LIQUOR  Open Catalogue/button_Add to Cart'))
+
+if (WebUI.verifyElementVisible(findTestObject('Page_BEER  LIQUOR  Open Catalogue/button_Proceed'), FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Page_BEER  LIQUOR  Open Catalogue/button_Proceed'))
+}
