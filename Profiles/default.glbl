@@ -7,21 +7,21 @@
    <GlobalVariableEntity>
       <description>Login username</description>
       <initValue>'78259099'</initValue>
-      <name>G_username</name>
+      <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'12341234'</initValue>
-      <name>G_password</name>
+      <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://testportal2.almliquor.com.au/customer'</initValue>
+      <initValue>'https://uat.almliquor.com.au/customer'</initValue>
       <name>URL_login</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://testportal2.almliquor.com.au/customer/register'</initValue>
+      <initValue>'https://uat.almliquor.com.au/customer/register'</initValue>
       <name>URL_registration</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

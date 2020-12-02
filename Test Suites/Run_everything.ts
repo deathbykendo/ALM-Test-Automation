@@ -15,31 +15,31 @@
       <guid>8eefa3d2-6a9d-4271-a841-3b08abf9b708</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/_Login</testCaseId>
+      <testCaseId>Test Cases/Login Page/_Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ffacf814-29f2-414f-bc4f-0437fb3c954a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/_Logout</testCaseId>
+      <testCaseId>Test Cases/Login Page/_Logout</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ff145774-a672-463f-89ee-f441f36c9c80</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Check Forgotten password page</testCaseId>
+      <testCaseId>Test Cases/Login Page/Check Forgotten password page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>883de0f1-9f7b-4849-95c6-a0710224dc2d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Check invalid username password</testCaseId>
+      <testCaseId>Test Cases/Login Page/Check invalid username password</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b3a3f7a6-cd58-451d-b76c-908e19605dac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/_Login</testCaseId>
+      <testCaseId>Test Cases/Login Page/_Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>fb0b84e7-1294-46aa-8ddb-1388fff3f418</guid>
@@ -75,6 +75,6 @@
       <guid>f77f5e25-79ab-4bcb-be57-39ca3a41c9e7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MyCart/_EmptyCart</testCaseId>
+      <testCaseId>Test Cases/MyCart_Page/_EmptyCart</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

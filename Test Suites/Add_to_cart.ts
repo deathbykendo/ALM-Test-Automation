@@ -15,7 +15,7 @@
       <guid>e0fb04b9-d207-49bd-b4f2-f37a4800a49c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/_Login</testCaseId>
+      <testCaseId>Test Cases/Login Page/_Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>16edaa99-e241-4bee-8c0f-c25d707a4447</guid>
@@ -33,6 +33,6 @@
       <guid>104cee74-5d52-47d8-8708-518e1dde07a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Quick Order/AddToCart_QuickOrder</testCaseId>
+      <testCaseId>Test Cases/QuickOrder_Page/AddToCart_QuickOrder</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

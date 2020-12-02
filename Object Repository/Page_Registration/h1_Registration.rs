@@ -3,20 +3,21 @@
    <description></description>
    <name>h1_Registration</name>
    <tag></tag>
-   <elementGuidId>e24c430e-757b-4f6a-8b74-a8c1fe6445c0</elementGuidId>
+   <elementGuidId>7d3d3f0d-6027-4d03-9d82-cb1921a769c4</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>h1</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Created using Figma'])[6]/following::h1[1]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
