@@ -24,3 +24,4 @@ WebUI.click(findTestObject('Page_My Dashboard/a_Beer'))
 
 WebUI.verifyTextPresent('BUDWEISER BEER', false)
 
+-- my comment
