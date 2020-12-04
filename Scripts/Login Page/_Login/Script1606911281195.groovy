@@ -35,3 +35,4 @@ WebUI.click(findTestObject('Object Repository/Page_Login/button_Login'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_My Dashboard/h2_My Dashboard'), 0)
 
+// Kirby's comment here'
