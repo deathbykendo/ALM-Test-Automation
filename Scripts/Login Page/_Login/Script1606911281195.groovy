@@ -28,9 +28,6 @@ WebUI.setText(findTestObject('Object Repository/Page_Login/input_Customer ID_j_u
 WebUI.setText(findTestObject('Object Repository/Page_Login/input_Password_j_password'), GlobalVariable.password)
 
 
-//WebUI.setText(findTestObject('Object Repository/Page_Login/input_Customer ID_j_username'), '72900006')
-//WebUI.setText(findTestObject('Object Repository/Page_Login/input_Password_j_password'), 'almtestbdm')
-
 WebUI.click(findTestObject('Object Repository/Page_Login/button_Login'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_My Dashboard/h2_My Dashboard'), 0)
