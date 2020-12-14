@@ -15,29 +15,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-//def Card_0_Status = WebUI.getText(findTestObject((‘Automation_Objects / Card_0) / Card_0_Status’))
+// If no search_term passed set default one
+try {
+    search_term
+}
+catch (Exception ex) {
+    search_term = GlobalVariable.Search_term_default
+} 
 
-//def Card_0_CardDetails_Status = WebUI.getText(findTestObject((‘Automation_Objects / Card_0) / Card_0_CardDetails_Status’))
+WebUI.setText(findTestObject('Page_My Dashboard/input_MIP_js-site-search-input'), search_term)
 
-//WebUI.verifyMatch(Card_0_Status, Card_0_CardDetails_Status, false)
+WebUI.click(findTestObject('Page_My Dashboard/Search button'))
 
-cartonCost = WebUI.getText(findTestObject('Page_Your Shopping Cart/row_0E_cartonCost'))
-
-cartonCost = cartonCost.replaceAll('[^0-9.]', '')
-println("Carton Cost:" + cartonCost)
-
-// Convert from STring to floating point number
-float cartonCost_num = cartonCost as float
-
-qty = WebUI.getText(findTestObject('Page_Your Shopping Cart/input_Cartons_cartEntries0.innerCartEntry.newCartonQty'))
-println("qty:" + qty)
-//int qty = qty as int
-
-
-//WebUI.getText(findTestObject('Page_Your Shopping Cart/row_0H_totalPrice'))
-
-
-
+WebUI.verifyTextNotPresent('we couldn\'t find any results for your search', false)
 

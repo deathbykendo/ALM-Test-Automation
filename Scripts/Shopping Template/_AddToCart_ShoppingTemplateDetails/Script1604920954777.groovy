@@ -15,29 +15,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-//def Card_0_Status = WebUI.getText(findTestObject((‘Automation_Objects / Card_0) / Card_0_Status’))
+WebUI.sendKeys(findTestObject('Page_Shopping Template Details/input_Cartons_innerAddToCartFormList0.cartonQty'), '1')
 
-//def Card_0_CardDetails_Status = WebUI.getText(findTestObject((‘Automation_Objects / Card_0) / Card_0_CardDetails_Status’))
+WebUI.sendKeys(findTestObject('Page_Shopping Template Details/input_Cartons_innerAddToCartFormList1.cartonQty'), '2')
 
-//WebUI.verifyMatch(Card_0_Status, Card_0_CardDetails_Status, false)
+WebUI.sendKeys(findTestObject('Page_Shopping Template Details/input_Cartons_innerAddToCartFormList2.cartonQty'), '3')
 
-cartonCost = WebUI.getText(findTestObject('Page_Your Shopping Cart/row_0E_cartonCost'))
-
-cartonCost = cartonCost.replaceAll('[^0-9.]', '')
-println("Carton Cost:" + cartonCost)
-
-// Convert from STring to floating point number
-float cartonCost_num = cartonCost as float
-
-qty = WebUI.getText(findTestObject('Page_Your Shopping Cart/input_Cartons_cartEntries0.innerCartEntry.newCartonQty'))
-println("qty:" + qty)
-//int qty = qty as int
-
-
-//WebUI.getText(findTestObject('Page_Your Shopping Cart/row_0H_totalPrice'))
-
-
-
+WebUI.click(findTestObject('Page_Shopping Template Details/button_Add to Cart'))
 

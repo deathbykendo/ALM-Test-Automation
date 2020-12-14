@@ -15,29 +15,25 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-//def Card_0_Status = WebUI.getText(findTestObject((‘Automation_Objects / Card_0) / Card_0_Status’))
+//WebUI.click(findTestObject('Page_Upload Order File/label_Browse'))
+/*WebUI.click(findTestObject('Page_My Dashboard/span_Order'))
 
-//def Card_0_CardDetails_Status = WebUI.getText(findTestObject((‘Automation_Objects / Card_0) / Card_0_CardDetails_Status’))
+WebUI.click(findTestObject('Page_My Dashboard/a_Upload Order'))
 
-//WebUI.verifyMatch(Card_0_Status, Card_0_CardDetails_Status, false)
+WebUI.verifyElementPresent(findTestObject('Page_Upload Order File/h2_Upload Order File'), 0)
+*/
+//
+//Passing the path of the file
+WebUI.sendKeys(findTestObject('Page_Upload Order File/label_Browse'), 'C:\\\\Users\\\\smitkir\\\\OneDrive - Metcash Trading Limited\\\\Katalon Projects\\\\_TestData\\\\ALM_CSV_upload_data.csv')
 
-cartonCost = WebUI.getText(findTestObject('Page_Your Shopping Cart/row_0E_cartonCost'))
+//WebUI.sendKeys(findTestObject('Upload File'), 'C:\\Users\\smitkir\\Katalon Studio\\ALM Portal\\Data Files\\Upload_Order_Sample.csv')
+//Capturing the file name after upload and storing it in a variable
+FilePath = WebUI.getAttribute(findTestObject('Page_Upload Order File/label_Browse'), 'value')
 
-cartonCost = cartonCost.replaceAll('[^0-9.]', '')
-println("Carton Cost:" + cartonCost)
+//Verifying the Actual path and Expected path of file
+WebUI.verifyMatch(FilePath, 'C:\\Users\\smitkir\\OneDrive - Metcash Trading Limited\\Katalon Projects\\_TestData\\ALM_CSV_upload_data.csv', 
+    false)
 
-// Convert from STring to floating point number
-float cartonCost_num = cartonCost as float
-
-qty = WebUI.getText(findTestObject('Page_Your Shopping Cart/input_Cartons_cartEntries0.innerCartEntry.newCartonQty'))
-println("qty:" + qty)
-//int qty = qty as int
-
-
-//WebUI.getText(findTestObject('Page_Your Shopping Cart/row_0H_totalPrice'))
-
-
-
+WebUI.verifyElementClickable(findTestObject(null))
 

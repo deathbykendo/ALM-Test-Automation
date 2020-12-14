@@ -15,29 +15,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-//def Card_0_Status = WebUI.getText(findTestObject((‘Automation_Objects / Card_0) / Card_0_Status’))
+WebUI.callTestCase(findTestCase('MyCart/_EmptyCart'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//def Card_0_CardDetails_Status = WebUI.getText(findTestObject((‘Automation_Objects / Card_0) / Card_0_CardDetails_Status’))
+WebUI.callTestCase(findTestCase('Quick Order/AddToCart_QuickOrder'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.verifyMatch(Card_0_Status, Card_0_CardDetails_Status, false)
-
-cartonCost = WebUI.getText(findTestObject('Page_Your Shopping Cart/row_0E_cartonCost'))
-
-cartonCost = cartonCost.replaceAll('[^0-9.]', '')
-println("Carton Cost:" + cartonCost)
-
-// Convert from STring to floating point number
-float cartonCost_num = cartonCost as float
-
-qty = WebUI.getText(findTestObject('Page_Your Shopping Cart/input_Cartons_cartEntries0.innerCartEntry.newCartonQty'))
-println("qty:" + qty)
-//int qty = qty as int
-
-
-//WebUI.getText(findTestObject('Page_Your Shopping Cart/row_0H_totalPrice'))
-
-
-
+WebUI.callTestCase(findTestCase('MyCart/_UpdateProduct_Qty'), [:], FailureHandling.STOP_ON_FAILURE)
 

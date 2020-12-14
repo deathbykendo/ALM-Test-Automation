@@ -15,29 +15,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-//def Card_0_Status = WebUI.getText(findTestObject((‘Automation_Objects / Card_0) / Card_0_Status’))
+// -------------------------------------------------------------------
+// This will delete the first Shopping Template in the list
+// -------------------------------------------------------------------
+WebUI.callTestCase(findTestCase('_Goto_page/_Goto_ShoppingTemplate_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//def Card_0_CardDetails_Status = WebUI.getText(findTestObject((‘Automation_Objects / Card_0) / Card_0_CardDetails_Status’))
+WebUI.click(findTestObject('Page_Shopping Templates/a_'))
 
-//WebUI.verifyMatch(Card_0_Status, Card_0_CardDetails_Status, false)
+WebUI.verifyElementPresent(findTestObject('Page_Shopping Templates/h2_Delete Shopping Template'), 0)
 
-cartonCost = WebUI.getText(findTestObject('Page_Your Shopping Cart/row_0E_cartonCost'))
+WebUI.verifyElementClickable(findTestObject('Page_Shopping Templates/button_Delete'))
 
-cartonCost = cartonCost.replaceAll('[^0-9.]', '')
-println("Carton Cost:" + cartonCost)
-
-// Convert from STring to floating point number
-float cartonCost_num = cartonCost as float
-
-qty = WebUI.getText(findTestObject('Page_Your Shopping Cart/input_Cartons_cartEntries0.innerCartEntry.newCartonQty'))
-println("qty:" + qty)
-//int qty = qty as int
-
-
-//WebUI.getText(findTestObject('Page_Your Shopping Cart/row_0H_totalPrice'))
-
-
-
+WebUI.click(findTestObject('Page_Shopping Templates/button_Delete'))
 

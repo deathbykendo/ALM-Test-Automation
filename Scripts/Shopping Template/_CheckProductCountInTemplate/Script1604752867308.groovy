@@ -15,29 +15,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-//def Card_0_Status = WebUI.getText(findTestObject((‘Automation_Objects / Card_0) / Card_0_Status’))
+//--------------------------------------------------------------------------
+// Pass the expected product count when calling test
+// WebUI.callTestCase(findTestCase('MyCart_Page/_CheckProductCountInCart'), [('product_count'):'4'], FailureHandling.STOP_ON_FAILURE)
+//--------------------------------------------------------------------------
+// If no search_term passed set default one
+try {
+    product_count
+}
+catch (Exception ex) {
+    // Do something here if they don't pass the value
+    product_count = "4"
+} 
 
-//def Card_0_CardDetails_Status = WebUI.getText(findTestObject((‘Automation_Objects / Card_0) / Card_0_CardDetails_Status’))
+// Get the text from the element
+MyCart_text = WebUI.getText(findTestObject('Page_Shopping Template Details/h2_ShoppingTemplate_Details'))
 
-//WebUI.verifyMatch(Card_0_Status, Card_0_CardDetails_Status, false)
+// Get the number from the string and store in var
 
-cartonCost = WebUI.getText(findTestObject('Page_Your Shopping Cart/row_0E_cartonCost'))
+String[] str;
+str = MyCart_text.split(/\(/);
+String MyCart_text = str[1]
 
-cartonCost = cartonCost.replaceAll('[^0-9.]', '')
-println("Carton Cost:" + cartonCost)
+OnPage_product_count = MyCart_text.replaceAll('[^0-9]', '')
 
-// Convert from STring to floating point number
-float cartonCost_num = cartonCost as float
-
-qty = WebUI.getText(findTestObject('Page_Your Shopping Cart/input_Cartons_cartEntries0.innerCartEntry.newCartonQty'))
-println("qty:" + qty)
-//int qty = qty as int
-
-
-//WebUI.getText(findTestObject('Page_Your Shopping Cart/row_0H_totalPrice'))
-
-
-
+println('>> On page Product Count: ' + OnPage_product_count + ' Expected_count:' + product_count)
+WebUI.verifyEqual(OnPage_product_count, product_count)
 

@@ -15,30 +15,12 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.setText(findTestObject('Page_Login/input_Customer ID_j_username'), 'My_Fake_Username')
 
-WebUI.maximizeWindow()
+WebUI.setText(findTestObject('Page_Login/input_Password_j_password'), '21786512jkdfh')
 
-WebUI.navigateToUrl(GlobalVariable.URL_login)
+WebUI.click(findTestObject('Page_Login/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Login/input_Customer ID_j_username'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Login/input_Customer ID_j_username'), GlobalVariable.username)
-
-WebUI.setText(findTestObject('Object Repository/Page_Login/input_Password_j_password'), GlobalVariable.password)
-
-//WebUI.setText(findTestObject('Object Repository/Page_Login/input_Customer ID_j_username'), '72900006')
-//WebUI.setText(findTestObject('Object Repository/Page_Login/input_Password_j_password'), 'almtestbdm')
-WebUI.click(findTestObject('Object Repository/Page_Login/button_Login'))
-
-WebUI.delay(GlobalVariable.short_wait_time)
-
-if (WebUI.verifyElementVisible(findTestObject('Page_My Dashboard/NewFlash popup'), FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Page_My Dashboard/NewFlash popup'))
-}
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_My Dashboard/h2_My Dashboard'), 0)
-
+WebUI.verifyTextPresent('The ID & password combination you have entered is incorrect', false)
 

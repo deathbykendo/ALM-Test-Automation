@@ -79,4 +79,9 @@
       <initValue>'beer'</initValue>
       <name>default_category</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[('price') : 53.53, ('quantity') : 10, ('prodcode') : '682056']</initValue>
+      <name>QDA</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

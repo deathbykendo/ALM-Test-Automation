@@ -15,29 +15,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-//def Card_0_Status = WebUI.getText(findTestObject((‘Automation_Objects / Card_0) / Card_0_Status’))
+WebUI.callTestCase(findTestCase('_Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//def Card_0_CardDetails_Status = WebUI.getText(findTestObject((‘Automation_Objects / Card_0) / Card_0_CardDetails_Status’))
-
-//WebUI.verifyMatch(Card_0_Status, Card_0_CardDetails_Status, false)
-
-cartonCost = WebUI.getText(findTestObject('Page_Your Shopping Cart/row_0E_cartonCost'))
-
-cartonCost = cartonCost.replaceAll('[^0-9.]', '')
-println("Carton Cost:" + cartonCost)
-
-// Convert from STring to floating point number
-float cartonCost_num = cartonCost as float
-
-qty = WebUI.getText(findTestObject('Page_Your Shopping Cart/input_Cartons_cartEntries0.innerCartEntry.newCartonQty'))
-println("qty:" + qty)
-//int qty = qty as int
-
-
-//WebUI.getText(findTestObject('Page_Your Shopping Cart/row_0H_totalPrice'))
-
+try {
+	WebUI.verifyElementPresent(findTestObject('Page_Your Shopping Cart/h2_Your shopping cart is empty'), 1)
+	
+ } catch(Exception ex) {
+	WebUI.click(findTestObject('Page_Your Shopping Cart/button_Clear cart'))
+ 	WebUI.verifyElementPresent(findTestObject('null'), 0)
+ 	WebUI.click(findTestObject('Page_Your Shopping Cart/a_Clear cart now'))
+ 	WebUI.delay(1)
+ 	WebUI.verifyElementPresent(findTestObject('Page_Your Shopping Cart/h2_Your shopping cart is empty'), 0)
+ 	WebUI.delay(1)
+ 
+ }
 
 
 

@@ -15,29 +15,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-//def Card_0_Status = WebUI.getText(findTestObject((‘Automation_Objects / Card_0) / Card_0_Status’))
+WebUI.callTestCase(findTestCase('_Goto_page/_Goto_AggregateList_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//def Card_0_CardDetails_Status = WebUI.getText(findTestObject((‘Automation_Objects / Card_0) / Card_0_CardDetails_Status’))
+WebUI.sendKeys(findTestObject('Page_BEER  LIQUOR  Open Catalogue/input_Cartons_innerAddToCartFormList0.cartonQty'), '1')
 
-//WebUI.verifyMatch(Card_0_Status, Card_0_CardDetails_Status, false)
+WebUI.sendKeys(findTestObject('Page_BEER  LIQUOR  Open Catalogue/input_Cartons_innerAddToCartFormList1.cartonQty'), '2')
 
-cartonCost = WebUI.getText(findTestObject('Page_Your Shopping Cart/row_0E_cartonCost'))
+WebUI.sendKeys(findTestObject('Page_BEER  LIQUOR  Open Catalogue/input_Cartons_innerAddToCartFormList2.cartonQty'), '3')
 
-cartonCost = cartonCost.replaceAll('[^0-9.]', '')
-println("Carton Cost:" + cartonCost)
+WebUI.sendKeys(findTestObject('Page_BEER  LIQUOR  Open Catalogue/input_Cartons_innerAddToCartFormList3.cartonQty'), '4')
 
-// Convert from STring to floating point number
-float cartonCost_num = cartonCost as float
+WebUI.click(findTestObject('Page_BEER  LIQUOR  Open Catalogue/button_Add to Cart'))
 
-qty = WebUI.getText(findTestObject('Page_Your Shopping Cart/input_Cartons_cartEntries0.innerCartEntry.newCartonQty'))
-println("qty:" + qty)
-//int qty = qty as int
-
-
-//WebUI.getText(findTestObject('Page_Your Shopping Cart/row_0H_totalPrice'))
-
-
-
-
+if (WebUI.verifyElementVisible(findTestObject('Page_BEER  LIQUOR  Open Catalogue/button_Proceed'), FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Page_BEER  LIQUOR  Open Catalogue/button_Proceed'))
+}
