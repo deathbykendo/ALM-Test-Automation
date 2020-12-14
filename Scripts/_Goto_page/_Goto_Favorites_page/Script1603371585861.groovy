@@ -20,5 +20,3 @@ WebUI.click(findTestObject('Page_My Dashboard/span_Favourites'))
 
 WebUI.verifyElementPresent(findTestObject('Page_My Dashboard/span_Favourites'), 0)
 
-WebUI.acceptAlert()
-

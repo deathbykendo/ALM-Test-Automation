@@ -9,18 +9,15 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-count = WebUI.callTestCase(findTestCase('_Common/_Get_Carton_count_from_mini_cart'), [:], FailureHandling.STOP_ON_FAILURE)
+def promo_text = ''
 
-WebUI.callTestCase(findTestCase('_Common/_AddToCart_Browse'), [:], FailureHandling.STOP_ON_FAILURE)
+promo_text = WebUI.getAttribute(findTestObject('Page_Promotions/p_10 or morecartons 53.53Start03Nov20, Ends29Jan21'), 
+    'value')
 
-count2 = WebUI.callTestCase(findTestCase('_Common/_Get_Carton_count_from_mini_cart'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyEqual(count + 4, count2)
+println('>> Promo Text: ' + promo_text)

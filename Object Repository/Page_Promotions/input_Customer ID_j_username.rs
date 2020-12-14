@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Cartons_cartEntries0.innerCartEntry.newCartonQty</name>
+   <name>input_Customer ID_j_username</name>
    <tag></tag>
-   <elementGuidId>7d85cacb-ad48-4c9f-b395-9916f2755d08</elementGuidId>
+   <elementGuidId>d423338f-cf98-498c-885c-12528f397fb2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='cartEntries[0].innerCartEntry.newCartonQty']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>input[name=&quot;cartEntries[0].innerCartEntry.newCartonQty&quot;]</value>
+         <value>#j_username</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @name = 'cartEntries[0].innerCartEntry.newCartonQty']</value>
+         <key>XPATH</key>
+         <value>//input[@id='j_username']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,18 +24,32 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>cartonsize</name>
+      <name>id</name>
       <type>Main</type>
-      <value>24.0</value>
+      <value>j_username</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>j_username</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>js-carton-control form-control form-control-quantity table-form-control text-center js-update-entry-quantity-input</value>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter your 8 digit account number</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,50 +61,29 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>cartEntries[0].innerCartEntry.newCartonQty</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>3</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;updateCartForm&quot;)/ul[@class=&quot;table-ui2 table-ui2-striped table-ui2-striped-xs table-ui2-layout1 marginB20&quot;]/li[@class=&quot;table-tr&quot;]/div[@class=&quot;table-td table-xs-6 borderT-dashed-xs table-xs-padding float-clearL-xs text-center text-gray&quot;]/div[@class=&quot;table-flex-xs table-flex-xs-top&quot;]/div[@class=&quot;flex-value&quot;]/input[@class=&quot;js-carton-control form-control form-control-quantity table-form-control text-center js-update-entry-quantity-input&quot;]</value>
+      <value>id(&quot;j_username&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='cartEntries[0].innerCartEntry.newCartonQty']</value>
+      <value>//input[@id='j_username']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='updateCartForm']/ul/li[2]/div[9]/div/div[2]/input</value>
+      <value>//form[@id='login-form']/div/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
+      <value>//input</value>
    </webElementXpaths>
 </WebElementEntity>

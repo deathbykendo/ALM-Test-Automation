@@ -1,85 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h2_KR Products</name>
+   <name>row_0H_total_price</name>
    <tag></tag>
-   <elementGuidId>1b1ed483-c265-48d2-9dd9-3951f568ad36</elementGuidId>
+   <elementGuidId>7405c919-0d5b-4051-bfee-85ede3712df8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes, leave'])[1]/following::h2[1]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '
-			KR Products 481 products available
-						' or . = '
-			KR Products 481 products available
-						')]</value>
+         <value>//span[@id='0H']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>h2</value>
+         <value>#updateCartForm > ul.table-ui2.table-ui2-striped.table-ui2-striped-xs.table-ui2-layout1.marginB20 > li.table-tr > div.table-td.pad-layout.width-full-xs.table-xs-padding.text-right.hidden-xs.print-visible > #0H</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h2</value>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>0H</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-			KR Products 481 products available
-						</value>
+      <value>$54.35</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-productList pageType-CategoryPage template-pages-category-productListPage  language-en&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;heading&quot;]/h2[1]</value>
+      <value>id(&quot;updateCartForm&quot;)/ul[@class=&quot;table-ui2 table-ui2-striped table-ui2-striped-xs table-ui2-layout1 marginB20&quot;]/li[@class=&quot;table-tr&quot;]/div[@class=&quot;table-td pad-layout width-full-xs table-xs-padding text-right hidden-xs print-visible&quot;]/span[@id=&quot;0H&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes, leave'])[1]/following::h2[1]</value>
+      <value>//span[@id='0H']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='updateCartForm']/ul/li[2]/div[12]/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::h2[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$54.35'])[2]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter and View options'])[1]/preceding::h2[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Incl Taxes &amp; Allowance)'])[4]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/preceding::h2[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='X'])[2]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h2</value>
+      <value>//div[12]/span</value>
    </webElementXpaths>
 </WebElementEntity>

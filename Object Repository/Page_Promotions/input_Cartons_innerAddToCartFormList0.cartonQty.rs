@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Cartons_cartEntries0.innerCartEntry.newCartonQty</name>
+   <name>input_Cartons_innerAddToCartFormList0.cartonQty</name>
    <tag></tag>
-   <elementGuidId>7d85cacb-ad48-4c9f-b395-9916f2755d08</elementGuidId>
+   <elementGuidId>e42c763b-5754-4e5a-8599-74f190d392c1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='cartEntries[0].innerCartEntry.newCartonQty']</value>
+         <key>CSS</key>
+         <value>#cartonControl_0</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;cartEntries[0].innerCartEntry.newCartonQty&quot;]</value>
+         <key>XPATH</key>
+         <value>//input[@id='cartonControl_0']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'text' and @name = 'cartEntries[0].innerCartEntry.newCartonQty']</value>
+         <value>//*[@type = 'text' and @id = 'cartonControl_0' and @name = 'innerAddToCartFormList[0].cartonQty']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,20 +26,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>cartonsize</name>
-      <type>Main</type>
-      <value>24.0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>js-carton-control form-control form-control-quantity table-form-control text-center js-update-entry-quantity-input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,16 +37,23 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>cartonsize</name>
       <type>Main</type>
-      <value>1</value>
+      <value>24.0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>id</name>
       <type>Main</type>
-      <value>cartEntries[0].innerCartEntry.newCartonQty</value>
+      <value>cartonControl_0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>js-plp-input js-carton-control table-form-control form-control text-center</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -72,23 +65,44 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>onkeypress</name>
+      <type>Main</type>
+      <value>return IsNumeric(event);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>innerAddToCartFormList[0].cartonQty</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-metcash-item-code</name>
+      <type>Main</type>
+      <value>682056</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;updateCartForm&quot;)/ul[@class=&quot;table-ui2 table-ui2-striped table-ui2-striped-xs table-ui2-layout1 marginB20&quot;]/li[@class=&quot;table-tr&quot;]/div[@class=&quot;table-td table-xs-6 borderT-dashed-xs table-xs-padding float-clearL-xs text-center text-gray&quot;]/div[@class=&quot;table-flex-xs table-flex-xs-top&quot;]/div[@class=&quot;flex-value&quot;]/input[@class=&quot;js-carton-control form-control form-control-quantity table-form-control text-center js-update-entry-quantity-input&quot;]</value>
+      <value>id(&quot;cartonControl_0&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='cartEntries[0].innerCartEntry.newCartonQty']</value>
+      <value>//input[@id='cartonControl_0']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='updateCartForm']/ul/li[2]/div[9]/div/div[2]/input</value>
+      <value>//ul[@id='resultsList']/li[5]/div[11]/div/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

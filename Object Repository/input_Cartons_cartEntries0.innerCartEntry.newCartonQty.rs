@@ -3,19 +3,15 @@
    <description></description>
    <name>input_Cartons_cartEntries0.innerCartEntry.newCartonQty</name>
    <tag></tag>
-   <elementGuidId>7d85cacb-ad48-4c9f-b395-9916f2755d08</elementGuidId>
+   <elementGuidId>b4def816-ed88-4ed5-a312-db89be0e1fd5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='cartEntries[0].innerCartEntry.newCartonQty']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>input[name=&quot;cartEntries[0].innerCartEntry.newCartonQty&quot;]</value>
+         <value>#0F</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @name = 'cartEntries[0].innerCartEntry.newCartonQty']</value>
+         <key>XPATH</key>
+         <value>//input[@id='0F']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,6 +22,13 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>0F</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,14 +77,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;updateCartForm&quot;)/ul[@class=&quot;table-ui2 table-ui2-striped table-ui2-striped-xs table-ui2-layout1 marginB20&quot;]/li[@class=&quot;table-tr&quot;]/div[@class=&quot;table-td table-xs-6 borderT-dashed-xs table-xs-padding float-clearL-xs text-center text-gray&quot;]/div[@class=&quot;table-flex-xs table-flex-xs-top&quot;]/div[@class=&quot;flex-value&quot;]/input[@class=&quot;js-carton-control form-control form-control-quantity table-form-control text-center js-update-entry-quantity-input&quot;]</value>
+      <value>id(&quot;0F&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='cartEntries[0].innerCartEntry.newCartonQty']</value>
+      <value>//input[@id='0F']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

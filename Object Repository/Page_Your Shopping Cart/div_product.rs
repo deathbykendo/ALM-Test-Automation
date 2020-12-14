@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h2_KR Products</name>
+   <name>div_product</name>
    <tag></tag>
-   <elementGuidId>1b1ed483-c265-48d2-9dd9-3951f568ad36</elementGuidId>
+   <elementGuidId>9519ffee-cfb2-4f8c-8c4f-f946c04fe7ef</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes, leave'])[1]/following::h2[1]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '
-			KR Products 481 products available
-						' or . = '
-			KR Products 481 products available
-						')]</value>
+         <value>//div[@id='0A']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>h2</value>
+         <value>#updateCartForm > ul.table-ui2.table-ui2-striped.table-ui2-striped-xs.table-ui2-layout1.marginB20 > li.table-tr > #0A</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = '0A' and (text() = '
+        682056' or . = '
+        682056')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +27,21 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h2</value>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>0A</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>table-td text-left pad-layout hidden-xs hidden-sm print-visible </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,49 +49,48 @@
       <name>text</name>
       <type>Main</type>
       <value>
-			KR Products 481 products available
-						</value>
+        682056</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-productList pageType-CategoryPage template-pages-category-productListPage  language-en&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;heading&quot;]/h2[1]</value>
+      <value>id(&quot;updateCartForm&quot;)/ul[@class=&quot;table-ui2 table-ui2-striped table-ui2-striped-xs table-ui2-layout1 marginB20&quot;]/li[@class=&quot;table-tr&quot;]/div[@id=&quot;0A&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes, leave'])[1]/following::h2[1]</value>
+      <value>//div[@id='0A']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='updateCartForm']/ul/li[2]/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::h2[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quantity dependant allowance'])[1]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter and View options'])[1]/preceding::h2[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/preceding::h2[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QDA'])[10]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h2</value>
+      <value>//li[2]/div[2]</value>
    </webElementXpaths>
 </WebElementEntity>

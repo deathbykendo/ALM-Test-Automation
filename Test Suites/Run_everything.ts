@@ -51,7 +51,7 @@
       <guid>5c286df1-1e2a-4af1-9a9d-22e29f5b6020</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_Common/_AddToCart_Favourites</testCaseId>
+      <testCaseId>Test Cases/Favourites_Page/_AddToCart_Favourites</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>72605758-8923-425d-9d74-bf90b387cbe7</guid>
@@ -69,7 +69,7 @@
       <guid>c4b466b1-a913-4a12-a163-1caade81a4be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_Common/_AddToCart_Favourites</testCaseId>
+      <testCaseId>Test Cases/Favourites_Page/_AddToCart_Favourites</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f77f5e25-79ab-4bcb-be57-39ca3a41c9e7</guid>
