@@ -23,12 +23,12 @@ try {
 	
  } catch(Exception ex) {
 	WebUI.click(findTestObject('Page_Your Shopping Cart/button_Clear cart'))
- 	WebUI.verifyElementPresent(findTestObject('null'), 0)
+ 	WebUI.verifyElementPresent(findTestObject('Page_Your Shopping Cart/a_Clear cart now'), 0)
  	WebUI.click(findTestObject('Page_Your Shopping Cart/a_Clear cart now'))
- 	WebUI.delay(1)
+ 	WebUI.delay(GlobalVariable.short_wait_time)
  	WebUI.verifyElementPresent(findTestObject('Page_Your Shopping Cart/h2_Your shopping cart is empty'), 0)
- 	WebUI.delay(1)
- 
+ 	WebUI.delay(GlobalVariable.short_wait_time)
+
  }
 
 

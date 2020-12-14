@@ -27,7 +27,7 @@
       <guid>64bfa324-6ee1-44ea-85d9-7ee839b8682d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_Common/_AddToCart_Favourites</testCaseId>
+      <testCaseId>Test Cases/Favourites_Page/_AddToCart_Favourites</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>104cee74-5d52-47d8-8708-518e1dde07a0</guid>

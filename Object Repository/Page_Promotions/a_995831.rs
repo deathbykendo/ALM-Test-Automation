@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_QDA</name>
+   <name>a_995831</name>
    <tag></tag>
-   <elementGuidId>c222e75c-0f33-4f94-bc2a-a14fba01c68b</elementGuidId>
+   <elementGuidId>b0b98a8c-cb8e-467a-8f5d-fcede8e94a3d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>li.visible-lg.visible-md.open > div.dropDown.dropdown-menu > ul > li.visible-lg.visible-md.js-submenu-item.dropdown-childmenu > div.dropDown.dropdown-menu > ul > li.yCmsComponent.js-submenu-item > a[title=&quot;QDA&quot;]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@href = '/customer/c/promotions/QDA?q=:description-asc:promotionType:QDA' and @title = 'QDA' and (text() = 'QDA' or . = 'QDA')]</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(text(),'QDA')])[5]</value>
+         <value>//ul[@id='resultsList']/li[8]/div/div/span/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,76 +28,90 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/customer/c/promotions/QDA?q=:description-asc:promotionType:QDA</value>
+      <value>/customer/my-account/purchaseProducts?text=995831</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>target</name>
       <type>Main</type>
-      <value>QDA</value>
+      <value>_blank</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-gray-imp txt-underline allow-link js-ui-tooltip</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>ui-id-4</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>QDA</value>
+      <value>995831</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-homepage pageType-ContentPage template-pages-layout-landingLayout2Page pageLabel-homepage language-en&quot;]/header[@class=&quot;navbar-fixed-top&quot;]/div[@class=&quot;header-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12&quot;]/nav[@class=&quot;bar&quot;]/ul[@class=&quot;clearfix navComponent-list&quot;]/div[@class=&quot;visible-lg visible-md&quot;]/li[@class=&quot;visible-lg visible-md open&quot;]/div[@class=&quot;dropDown dropdown-menu&quot;]/ul[1]/li[@class=&quot;visible-lg visible-md js-submenu-item dropdown-childmenu&quot;]/div[@class=&quot;dropDown dropdown-menu&quot;]/ul[1]/li[@class=&quot;yCmsComponent js-submenu-item&quot;]/a[1]</value>
+      <value>id(&quot;resultsList&quot;)/li[@class=&quot;table-tr item-list-item&quot;]/div[@class=&quot;table-td table-ui2-visible-sm&quot;]/div[@class=&quot;clearfix&quot;]/span[@class=&quot;text-gray&quot;]/a[@class=&quot;text-gray-imp txt-underline allow-link js-ui-tooltip&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='resultsList']/li[8]/div/div/span/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>(//a[contains(text(),'QDA')])[5]</value>
+      <value>//a[contains(text(),'995831')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo'])[5]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BEER FULL STRENGTH, CRAFT'])[2]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deals'])[3]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BEER FULL STRENGTH, CRAFT'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bonus'])[5]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parcel Buy'])[5]/preceding::a[2]</value>
+      <value>//*/text()[normalize-space(.)='995831']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/customer/c/promotions/QDA?q=:description-asc:promotionType:QDA')])[5]</value>
+      <value>//a[contains(@href, '/customer/my-account/purchaseProducts?text=995831')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/li[3]/div/ul/li[13]/div/ul/li[2]/a</value>
+      <value>//li[8]/div/div/span/a</value>
    </webElementXpaths>
 </WebElementEntity>

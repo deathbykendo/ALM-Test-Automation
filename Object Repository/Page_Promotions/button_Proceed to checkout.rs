@@ -1,107 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_QDA</name>
+   <name>button_Proceed to checkout</name>
    <tag></tag>
-   <elementGuidId>c222e75c-0f33-4f94-bc2a-a14fba01c68b</elementGuidId>
+   <elementGuidId>5c916423-2aa9-4b14-8a49-7329ccf7838f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.visible-lg.visible-md.open > div.dropDown.dropdown-menu > ul > li.visible-lg.visible-md.js-submenu-item.dropdown-childmenu > div.dropDown.dropdown-menu > ul > li.yCmsComponent.js-submenu-item > a[title=&quot;QDA&quot;]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@href = '/customer/c/promotions/QDA?q=:description-asc:promotionType:QDA' and @title = 'QDA' and (text() = 'QDA' or . = 'QDA')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(//a[contains(text(),'QDA')])[5]</value>
+         <value>//button[@id='checkoutButton']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#checkoutButton</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>type</name>
       <type>Main</type>
-      <value>/customer/c/promotions/QDA?q=:description-asc:promotionType:QDA</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-half btn-secondary pull-right js-checkout-button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>id</name>
       <type>Main</type>
-      <value>QDA</value>
+      <value>checkoutButton</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>QDA</value>
+      <value>Proceed to checkout</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-homepage pageType-ContentPage template-pages-layout-landingLayout2Page pageLabel-homepage language-en&quot;]/header[@class=&quot;navbar-fixed-top&quot;]/div[@class=&quot;header-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12&quot;]/nav[@class=&quot;bar&quot;]/ul[@class=&quot;clearfix navComponent-list&quot;]/div[@class=&quot;visible-lg visible-md&quot;]/li[@class=&quot;visible-lg visible-md open&quot;]/div[@class=&quot;dropDown dropdown-menu&quot;]/ul[1]/li[@class=&quot;visible-lg visible-md js-submenu-item dropdown-childmenu&quot;]/div[@class=&quot;dropDown dropdown-menu&quot;]/ul[1]/li[@class=&quot;yCmsComponent js-submenu-item&quot;]/a[1]</value>
+      <value>/html[1]/body[@class=&quot;page-cartPage pageType-ContentPage template-pages-CartPageTemplate pageLabel-cart language-en&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;yCmsComponent yComponentWrapper&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;cart-totals&quot;]/div[1]/div[@class=&quot;col-xs-12 col-sm-6 col-md-5 col-sm-offset-1 box1 print-bb-none pull-right print-col-5 print-offset-2 print-paddingTB0&quot;]/div[@class=&quot;col-sm-12 hidden-print&quot;]/div[@class=&quot;cart-action row&quot;]/div[@class=&quot;js-proceed-to-checkout&quot;]/button[@id=&quot;checkoutButton&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//a[contains(text(),'QDA')])[5]</value>
+      <value>//button[@id='checkoutButton']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo'])[5]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$190.66'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deals'])[3]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Incl Taxes &amp; Allowance):'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bonus'])[5]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue shopping'])[1]/preceding::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parcel Buy'])[5]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear cart'])[1]/preceding::button[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/customer/c/promotions/QDA?q=:description-asc:promotionType:QDA')])[5]</value>
+      <value>//*/text()[normalize-space(.)='Proceed to checkout']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/li[3]/div/ul/li[13]/div/ul/li[2]/a</value>
+      <value>//div[4]/div/div/div/div/div/div[2]/div/div/button</value>
    </webElementXpaths>
 </WebElementEntity>

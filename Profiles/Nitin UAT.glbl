@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>Nitin UAT</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>Login username</description>
-      <initValue>'78259099'</initValue>
+      <initValue>'71900006'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,6 +51,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>6</initValue>
+      <name>medium_wait_time</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>[('desc') : 'VB STUBBIES 375ML', ('prodcode') : '500767']</initValue>
       <name>product_VB</name>
    </GlobalVariableEntity>
@@ -66,11 +71,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>6</initValue>
-      <name>medium_wait_time</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'cooper'</initValue>
       <name>Search_term_default</name>
    </GlobalVariableEntity>
@@ -81,7 +81,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>[('price') : 53.53, ('quantity') : 10, ('prodcode') : '682056']</initValue>
+      <initValue>[('end_date') : '', ('price') : 51.60, ('quantity') : 10, ('prodcode') : '682056']</initValue>
       <name>QDA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'682056'</initValue>
+      <name>Search_QDA_def</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
