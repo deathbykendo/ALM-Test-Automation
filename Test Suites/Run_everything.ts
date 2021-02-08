@@ -45,7 +45,7 @@
       <guid>fb0b84e7-1294-46aa-8ddb-1388fff3f418</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_Common/_Browse_Beer</testCaseId>
+      <testCaseId>Test Cases/Browse_Page/_Browse_Beer</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5c286df1-1e2a-4af1-9a9d-22e29f5b6020</guid>
@@ -57,13 +57,13 @@
       <guid>72605758-8923-425d-9d74-bf90b387cbe7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_Common/_Browse_Wine</testCaseId>
+      <testCaseId>Test Cases/Browse_Page/_Browse_Wine</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0ef953a4-a629-47e9-9858-d23c626615e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_Common/_AddToCart_Browse</testCaseId>
+      <testCaseId>Test Cases/Browse_Page/_AddToCart_Browse</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c4b466b1-a913-4a12-a163-1caade81a4be</guid>

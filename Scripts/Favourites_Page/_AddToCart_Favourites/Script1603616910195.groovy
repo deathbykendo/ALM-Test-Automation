@@ -18,18 +18,18 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('_Goto_page/_Goto_Favorites_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Page_BEER  LIQUOR  Open Catalogue/input_Cartons_innerAddToCartFormList0.cartonQty'), '1')
+WebUI.sendKeys(findTestObject('Page_Browse/input_Cartons_innerAddToCartFormList0.cartonQty'), '1')
 
-WebUI.sendKeys(findTestObject('Page_BEER  LIQUOR  Open Catalogue/input_Cartons_innerAddToCartFormList1.cartonQty'), '1')
+WebUI.sendKeys(findTestObject('Page_Browse/input_Cartons_innerAddToCartFormList1.cartonQty'), '1')
 
-WebUI.sendKeys(findTestObject('Page_BEER  LIQUOR  Open Catalogue/input_Cartons_innerAddToCartFormList2.cartonQty'), '1')
+WebUI.sendKeys(findTestObject('Page_Browse/input_Cartons_innerAddToCartFormList2.cartonQty'), '1')
 
-WebUI.sendKeys(findTestObject('Page_BEER  LIQUOR  Open Catalogue/input_Cartons_innerAddToCartFormList3.cartonQty'), '1')
+WebUI.sendKeys(findTestObject('Page_Browse/input_Cartons_innerAddToCartFormList3.cartonQty'), '1')
 
-WebUI.click(findTestObject('Page_BEER  LIQUOR  Open Catalogue/button_Add to Cart'))
+WebUI.click(findTestObject('Page_Browse/button_Add to Cart'))
 
-if (WebUI.verifyElementVisible(findTestObject('Page_BEER  LIQUOR  Open Catalogue/button_Proceed'), FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Page_BEER  LIQUOR  Open Catalogue/button_Proceed'))
+if (WebUI.verifyElementVisible(findTestObject('Page_Browse/button_Proceed'), FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Page_Browse/button_Proceed'))
 }
 
 WebUI.delay(3)

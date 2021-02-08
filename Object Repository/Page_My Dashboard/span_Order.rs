@@ -7,11 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Bonus Stock Liquor Items'])[4]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Order' or . = 'Order')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

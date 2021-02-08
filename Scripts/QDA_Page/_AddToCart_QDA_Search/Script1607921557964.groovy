@@ -38,8 +38,8 @@ WebUI.verifyElementVisible(findTestObject('Page_Promotions/button_Add to Cart'),
 WebUI.click(findTestObject('Page_Promotions/button_Add to Cart'))
 
 
-if	(WebUI.verifyElementVisible(findTestObject('Object Repository/Page_BEER  LIQUOR  Open Catalogue/button_Proceed'),FailureHandling.OPTIONAL)){
-	WebUI.click(findTestObject('Object Repository/Page_BEER  LIQUOR  Open Catalogue/button_Proceed'))
+if	(WebUI.verifyElementVisible(findTestObject('Page_Browse/button_Proceed'),FailureHandling.OPTIONAL)){
+	WebUI.click(findTestObject('Page_Browse/button_Proceed'))
 }
 
 WebUI.delay(3)

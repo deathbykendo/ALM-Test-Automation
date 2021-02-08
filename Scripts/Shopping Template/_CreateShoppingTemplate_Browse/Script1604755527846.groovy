@@ -30,28 +30,28 @@ catch (Exception ex) {
 } 
 
 if (category == 'beer') {
-    WebUI.callTestCase(findTestCase('_Common/_Browse_Beer'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('Browse_Page/_Browse_Beer'), [:], FailureHandling.STOP_ON_FAILURE)
 } else if (category == 'wine') {
-    WebUI.callTestCase(findTestCase('_Common/_Browse_Wine'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('Browse_Page/_Browse_Wine'), [:], FailureHandling.STOP_ON_FAILURE)
 } else if (category == 'cider') {
-    WebUI.callTestCase(findTestCase('_Common/_Browse_Cider'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('Browse_Page/_Browse_Cider'), [:], FailureHandling.STOP_ON_FAILURE)
 } else {
-    WebUI.callTestCase(findTestCase('_Common/_Browse_Beer'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('Browse_Page/_Browse_Beer'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
-WebUI.sendKeys(findTestObject('Page_BEER  LIQUOR  Open Catalogue/input_Cartons_innerAddToCartFormList0.cartonQty'), '1')
+WebUI.sendKeys(findTestObject('Page_Browse/input_Cartons_innerAddToCartFormList0.cartonQty'), '1')
 
-WebUI.sendKeys(findTestObject('Page_BEER  LIQUOR  Open Catalogue/input_Cartons_innerAddToCartFormList1.cartonQty'), '2')
+WebUI.sendKeys(findTestObject('Page_Browse/input_Cartons_innerAddToCartFormList1.cartonQty'), '2')
 
-WebUI.sendKeys(findTestObject('Page_BEER  LIQUOR  Open Catalogue/input_Cartons_innerAddToCartFormList2.cartonQty'), '3')
+WebUI.sendKeys(findTestObject('Page_Browse/input_Cartons_innerAddToCartFormList2.cartonQty'), '3')
 
-WebUI.sendKeys(findTestObject('Page_BEER  LIQUOR  Open Catalogue/input_Cartons_innerAddToCartFormList3.cartonQty'), '4')
+WebUI.sendKeys(findTestObject('Page_Browse/input_Cartons_innerAddToCartFormList3.cartonQty'), '4')
 
-WebUI.click(findTestObject('Page_BEER  LIQUOR  Open Catalogue/button_Add to Shopping Templates'))
+WebUI.click(findTestObject('Page_Browse/button_Add to Shopping Templates'))
 
-WebUI.click(findTestObject('Page_BEER  LIQUOR  Open Catalogue/a_Shopping list(s)'))
+WebUI.click(findTestObject('Page_Browse/a_Shopping list(s)'))
 
-WebUI.click(findTestObject('Page_BEER  LIQUOR  Open Catalogue/a_Create a new list'))
+WebUI.click(findTestObject('Page_Browse/a_Create a new list'))
 
 Random rnd = new Random()
 
@@ -60,9 +60,9 @@ randomNumber = rnd.nextInt(99)
 // Create the template name
 templateName = ((category + '_') + randomNumber)
 
-WebUI.setText(findTestObject('Page_BEER  LIQUOR  Open Catalogue/input_Shopping list(s)_js-newList'), templateName)
+WebUI.setText(findTestObject('Page_Browse/input_Shopping list(s)_js-newList'), templateName)
 
-WebUI.click(findTestObject('Page_BEER  LIQUOR  Open Catalogue/a_Add to list'))
+WebUI.click(findTestObject('Page_Browse/a_Add to list'))
 
 WebUI.delay(3)
 

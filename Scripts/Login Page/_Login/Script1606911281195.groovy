@@ -36,7 +36,8 @@ WebUI.click(findTestObject('Object Repository/Page_Login/button_Login'))
 WebUI.delay(GlobalVariable.short_wait_time)
 
 if (WebUI.verifyElementVisible(findTestObject('Page_My Dashboard/NewFlash popup'), FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Page_My Dashboard/NewFlash popup'))
+    WebUI.click(findTestObject('Page_My Dashboard/NewFlash popup'))	
+	WebUI.delay(GlobalVariable.short_wait_time)
 }
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_My Dashboard/h2_My Dashboard'), 0)

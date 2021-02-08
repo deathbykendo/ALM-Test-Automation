@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('_Goto_page/_Goto_Home_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('_Common/_AddToCart_Search'), [('search_term') : GlobalVariable.QDA.product], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Search_Page/_AddToCart_Search (1)'), [('search_term') : GlobalVariable.QDA.product], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('MyCart/_UpdateProduct_Qty'), [('qty') : GlobalVariable.QDA.qty], FailureHandling.STOP_ON_FAILURE)
 

@@ -16,13 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Page_BEER  LIQUOR  Open Catalogue/button_Commodity'))
+WebUI.click(findTestObject('Page_Browse/button_Commodity'))
 
-WebUI.click(findTestObject('Page_BEER  LIQUOR  Open Catalogue/span_BEER ALL FULL STRENGTH'))
+WebUI.click(findTestObject('Page_Browse/span_BEER ALL FULL STRENGTH'))
 
-WebUI.click(findTestObject('Page_BEER  LIQUOR  Open Catalogue/button_Suppliers'))
+WebUI.click(findTestObject('Page_Browse/button_Suppliers'))
 
-WebUI.click(findTestObject('Page_BEER  LIQUOR  Open Catalogue/span_LION NATHAN'))
+WebUI.click(findTestObject('Page_Browse/span_LION NATHAN'))
 
-WebUI.click(findTestObject('Page_BEER  LIQUOR  Open Catalogue/button_Apply'))
+WebUI.click(findTestObject('Page_Browse/button_Apply'))
+
 
