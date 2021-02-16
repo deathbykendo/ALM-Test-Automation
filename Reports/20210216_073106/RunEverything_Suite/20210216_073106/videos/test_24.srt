@@ -1,0 +1,20 @@
+1
+00:00:00,526 --> 00:00:00,526
+1. callTestCase(findTestCase("Search_Page/_Search_product"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,598 --> 00:00:00,598
+1. try
+
+3
+00:00:00,600 --> 00:00:00,600
+1. search_term
+
+4
+00:00:00,603 --> 00:00:00,604
+2. search_term = Search_term_default
+
+5
+00:00:00,606 --> 00:00:00,607
+5. setText(findTestObject("Page_My Dashboard/input_MIP_js-site-search-input"), search_term)
+

@@ -1,0 +1,24 @@
+1
+00:00:01,157 --> 00:00:01,158
+1. try
+
+2
+00:00:01,172 --> 00:00:01,173
+1. search_term
+
+3
+00:00:01,207 --> 00:00:01,209
+2. search_term = Search_term_default
+
+4
+00:00:01,249 --> 00:00:01,256
+5. setText(findTestObject("Page_My Dashboard/input_MIP_js-site-search-input"), search_term)
+
+5
+00:00:17,887 --> 00:00:17,892
+1. println(testSuiteContext.getTestSuiteId())
+
+6
+00:00:17,896 --> 00:00:17,898
+5. closeBrowser()
+

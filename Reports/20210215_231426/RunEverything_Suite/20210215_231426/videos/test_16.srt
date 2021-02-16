@@ -1,0 +1,52 @@
+1
+00:00:00,316 --> 00:00:00,316
+1. callTestCase(findTestCase("KeyRetail_Page/_AddToCart_KeyRetail"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,697 --> 00:00:00,697
+1. prod_count = callTestCase(findTestCase("MyCart_Page/_GetProductCountInCart"), [:], OPTIONAL)
+
+3
+00:00:00,775 --> 00:00:00,775
+1. callTestCase(findTestCase("_Goto_page/_Goto_MyCart_page"), [:], STOP_ON_FAILURE)
+
+4
+00:00:00,848 --> 00:00:00,849
+1. click(findTestObject("Page_My Dashboard/i_MIP_tip_MiniCart"))
+
+5
+00:00:03,042 --> 00:00:03,042
+5. delay(short_wait_time)
+
+6
+00:00:09,047 --> 00:00:09,048
+9. verifyElementPresent(findTestObject("Page_Your Shopping Cart/h2_My cart"), 0)
+
+7
+00:00:09,183 --> 00:00:09,183
+5. MyCart_text = getText(findTestObject("Page_Your Shopping Cart/h2_My cart"))
+
+8
+00:00:09,401 --> 00:00:09,401
+9. OnPage_product_count = MyCart_text.replaceAll("[^0-9]", "")
+
+9
+00:00:09,405 --> 00:00:09,406
+13. println("Num Prod in Cart: " + OnPage_product_count)
+
+10
+00:00:09,408 --> 00:00:09,409
+17. return OnPage_product_count
+
+11
+00:00:09,412 --> 00:00:09,412
+5. callTestCase(findTestCase("_Goto_page/_Goto_KeyRetailer_page"), [:], STOP_ON_FAILURE)
+
+12
+00:00:09,485 --> 00:00:09,486
+1. click(findTestObject("Page_My Dashboard/span_Order"))
+
+13
+00:00:10,790 --> 00:00:10,791
+5. click(findTestObject("Page_My Dashboard/a_KR Products"))
+

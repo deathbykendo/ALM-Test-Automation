@@ -1,0 +1,4 @@
+1
+00:00:00,504 --> 00:00:00,505
+1. verifyElementVisible(findTestObject("null"))
+

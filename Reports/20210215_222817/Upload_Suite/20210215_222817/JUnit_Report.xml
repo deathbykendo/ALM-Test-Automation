@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Upload_Suite" time="86.207" tests="1" failures="0" errors="0">
+   <testsuite name="Upload_Suite" tests="1" failures="0" errors="0" time="86.207" timestamp="2021-02-15 22:28:31" hostname="smitkir - MP-CORP-59381.metcash.com" id="Test Suites/Upload_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\smitkir\\OneDrive - Metcash Trading Limited\\Katalon Projects\\ALM Portal\\Reports\\20210215_222817\\Upload_Suite\\20210215_222817"/>
+         <property name="logFiles" value="C:\\Users\\smitkir\\OneDrive - Metcash Trading Limited\\Katalon Projects\\ALM Portal\\Reports\\20210215_222817\\Upload_Suite\\20210215_222817\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\smitkir\\OneDrive - Metcash Trading Limited\\Katalon Projects\\ALM Portal\\Reports\\20210215_222817\\Upload_Suite\\20210215_222817\\1613388585680.png"/>
+         <property name="hostName" value="smitkir - MP-CORP-59381.metcash.com"/>
+         <property name="os" value="Windows 8 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 88.0.4324.150"/>
+         <property name="hostAddress" value="172.22.251.50"/>
+         <property name="sessionId" value="dbf49dea192722247316a6e7177fc675"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Page/_Login" time="59.191" classname="Test Cases/Login Page/_Login" status="PASSED">
+         <system-out><![CDATA[2021-02-15 22:28:52 - [TEST_CASE][PASSED] - Test Cases/Login Page/_Login: Test Cases/Login Page/_Login
+
+2021-02-15 22:28:56 - [TEST_STEP][PASSED] - try: Navigate to 'https://uat.almliquor.com.au/customer' successfully
+
+2021-02-15 22:28:56 - [TEST_STEP][PASSED] - navigateToUrl(URL_login): Navigate to 'https://uat.almliquor.com.au/customer' successfully
+
+2021-02-15 22:29:09 - [MESSAGE][PASSED] - Navigate to 'https://uat.almliquor.com.au/customer' successfully
+
+2021-02-15 22:29:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Customer ID_j_username"), username): Text '78259099' is set on object 'Object Repository/Page_Login/input_Customer ID_j_username'
+
+2021-02-15 22:29:15 - [MESSAGE][PASSED] - Text '78259099' is set on object 'Object Repository/Page_Login/input_Customer ID_j_username'
+
+2021-02-15 22:29:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Password_j_password"), password): Text '12341234' is set on object 'Object Repository/Page_Login/input_Password_j_password'
+
+2021-02-15 22:29:20 - [MESSAGE][PASSED] - Text '12341234' is set on object 'Object Repository/Page_Login/input_Password_j_password'
+
+2021-02-15 22:29:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Login")): Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2021-02-15 22:29:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2021-02-15 22:29:34 - [TEST_STEP][PASSED] - delay(short_wait_time): Delayed 2 second(s)
+
+2021-02-15 22:29:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 22:29:37 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Page_My Dashboard/NewFlash popup"), OPTIONAL)): Web element with id: 'Object Repository/Page_My Dashboard/NewFlash popup' located by '//input[@value='Close']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_My Dashboard/NewFlash popup' located by '//input[@value='Close']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at _Login.run(_Login:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613388497908.run(TempTestSuite1613388497908.groovy:39)
+)
+
+2021-02-15 22:29:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@value='Close']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-15 22:29:47 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_My Dashboard/NewFlash popup' located by '//input[@value='Close']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_My Dashboard/NewFlash popup' located by '//input[@value='Close']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at _Login.run(_Login:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613388497908.run(TempTestSuite1613388497908.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\smitkir\\OneDrive - Metcash Trading Limited\\Katalon Projects\\ALM Portal\\Reports\\20210215_222817\\Upload_Suite\\20210215_222817\\1613388585680.png]]
+
+2021-02-15 22:29:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_My Dashboard/h2_My Dashboard"), short_wait_time): Object 'Object Repository/Page_My Dashboard/h2_My Dashboard' is present
+
+2021-02-15 22:29:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Dashboard/h2_My Dashboard' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-15 22:28:31 - [TEST_SUITE][PASSED] - Upload_Suite: Test Cases/Login Page/_Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

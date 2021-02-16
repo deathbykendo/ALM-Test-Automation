@@ -1,0 +1,32 @@
+1
+00:00:00,388 --> 00:00:00,389
+1. try
+
+2
+00:00:00,393 --> 00:00:00,394
+1. templateName = ShoppingTemplateName
+
+3
+00:00:00,397 --> 00:00:00,397
+5. println("TampleteName:" + templateName + ":")
+
+4
+00:00:00,400 --> 00:00:00,401
+9. callTestCase(findTestCase("_Goto_page/_Goto_ShoppingTemplateDetails_page"), ["templateName":templateName], STOP_ON_FAILURE)
+
+5
+00:00:00,929 --> 00:00:00,930
+1. try
+
+6
+00:00:00,932 --> 00:00:00,933
+1. templateName
+
+7
+00:00:00,937 --> 00:00:00,939
+5. println("templateName1:" + templateName + ":::")
+
+8
+00:00:00,943 --> 00:00:00,943
+9. click(findTestObject("Page_My Dashboard/span_Order"))
+

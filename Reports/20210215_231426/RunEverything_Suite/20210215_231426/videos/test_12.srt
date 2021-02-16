@@ -1,0 +1,16 @@
+1
+00:00:00,305 --> 00:00:00,305
+1. callTestCase(findTestCase("Favourites_Page/_AddToCart_Favourites"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,653 --> 00:00:00,653
+1. prod_count = callTestCase(findTestCase("MyCart_Page/_GetProductCountInCart"), [:], OPTIONAL)
+
+3
+00:00:00,722 --> 00:00:00,722
+1. callTestCase(findTestCase("_Goto_page/_Goto_MyCart_page"), [:], STOP_ON_FAILURE)
+
+4
+00:00:00,797 --> 00:00:00,797
+1. click(findTestObject("Page_My Dashboard/i_MIP_tip_MiniCart"))
+

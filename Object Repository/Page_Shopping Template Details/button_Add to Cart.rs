@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Add to Cart</name>
    <tag></tag>
-   <elementGuidId>39bda353-186f-403b-8471-23847a51cbcb</elementGuidId>
+   <elementGuidId>9bad40b1-fed1-45d6-b0ff-6c71f93dc0f2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='addToCartBtn']</value>
+         <value>//button[@id='addToCartBtn5']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#addToCartBtn</value>
+         <value>#addToCartBtn5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,14 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-secondary col-xs-12</value>
+      <value>btn btn-secondary col-xs-12 addToCartBtn</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>addToCartBtn</value>
+      <value>addToCartBtn5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,14 +49,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;addToCartBtn&quot;)</value>
+      <value>id(&quot;addToCartBtn5&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='addToCartBtn']</value>
+      <value>//button[@id='addToCartBtn5']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

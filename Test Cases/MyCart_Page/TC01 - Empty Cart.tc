@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01 - Empty Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d836662f-9e41-4ea2-bd18-fc762946ba01</testCaseGuid>
+</TestCaseEntity>

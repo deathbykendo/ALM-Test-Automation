@@ -1,0 +1,8 @@
+10
+00:01:22,851 --> 00:01:22,852
+1. println(testSuiteContext.getTestSuiteId())
+
+11
+00:01:22,855 --> 00:01:22,856
+5. closeBrowser()
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01 - add to cart from Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce170ed6-49ca-4996-ac56-deee8d9c91e3</testCaseGuid>
+</TestCaseEntity>

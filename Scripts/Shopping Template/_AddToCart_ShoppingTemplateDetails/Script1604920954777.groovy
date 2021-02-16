@@ -22,5 +22,5 @@ WebUI.sendKeys(findTestObject('Page_Shopping Template Details/input_Cartons_inne
 
 WebUI.sendKeys(findTestObject('Page_Shopping Template Details/input_Cartons_innerAddToCartFormList2.cartonQty'), '3')
 
-WebUI.click(findTestObject('Page_Shopping Template Details/button_Add to Cart'))
+WebUI.click(findTestObject('null'))
 

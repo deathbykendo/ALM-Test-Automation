@@ -6,12 +6,12 @@
    <elementGuidId>d2d150a6-4f93-4f6a-b011-841020c74924</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='addToCartBtn']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#addToCartBtn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='addToCartBtn3']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

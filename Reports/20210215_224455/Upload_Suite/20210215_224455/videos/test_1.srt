@@ -1,0 +1,8 @@
+9
+00:00:26,618 --> 00:00:26,620
+1. println(testSuiteContext.getTestSuiteId())
+
+10
+00:00:26,624 --> 00:00:26,625
+5. closeBrowser()
+

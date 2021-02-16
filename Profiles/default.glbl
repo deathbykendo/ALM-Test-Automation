@@ -81,7 +81,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>[('price') : 53.53, ('quantity') : 10, ('prodcode') : '682056']</initValue>
+      <initValue>[('qda_price') : 73.40, ('quantity') : 3, ('prodcode') : '019305']</initValue>
       <name>QDA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>This Global Variable is used to pass between Test Case during Test Suits Runs</description>
+      <initValue>''</initValue>
+      <name>ShoppingTemplateName</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,32 @@
+1
+00:00:00,498 --> 00:00:00,499
+1. callTestCase(findTestCase("ShoppingTemplate_Page/_CreateShoppingTemplate_from Browse"), [:], STOP_ON_FAILURE)
+
+2
+00:00:01,238 --> 00:00:01,238
+1. try
+
+3
+00:00:01,241 --> 00:00:01,241
+1. category
+
+4
+00:00:01,245 --> 00:00:01,245
+2. category = default_category
+
+5
+00:00:01,247 --> 00:00:01,249
+5. if (category == "beer")
+
+6
+00:00:01,252 --> 00:00:01,252
+2. callTestCase(findTestCase("Browse_Page/_Browse_Wine"), [:], STOP_ON_FAILURE)
+
+7
+00:00:01,330 --> 00:00:01,331
+1. callTestCase(findTestCase("_Goto_page/_Goto_Home_page"), [:], STOP_ON_FAILURE)
+
+8
+00:00:01,415 --> 00:00:01,416
+1. click(findTestObject("Page_My Dashboard/ALM_logo_home"))
+

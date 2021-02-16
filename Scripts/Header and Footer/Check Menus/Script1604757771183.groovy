@@ -13,19 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('_Goto_page/_Goto_AggregateList_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_AggregateList_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('_Goto_page/_Goto_Favorites_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_Favorites_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('_Goto_page/_Goto_Home_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_Home_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('_Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('_Goto_page/_Goto_QuickOrder_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_QuickOrder_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('_Goto_page/_Goto_ShoppingTemplate_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_ShoppingTemplate_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('_Goto_page/_Goto_UploadOrder_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_UploadOrder_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('_Goto_page/_Goto_KeyRetailer_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_KeyRetailer_page'), [:], FailureHandling.STOP_ON_FAILURE)
 

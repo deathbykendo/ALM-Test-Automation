@@ -1,0 +1,24 @@
+1
+00:00:00,005 --> 00:00:00,006
+1. callTestCase(findTestCase("Login Page/_Login"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,324 --> 00:00:00,325
+1. try
+
+3
+00:00:00,327 --> 00:00:00,328
+1. navigateToUrl(URL_login)
+
+4
+00:00:04,477 --> 00:00:04,478
+5. setText(findTestObject("Object Repository/Page_Login/input_Customer ID_j_username"), username)
+
+5
+00:00:14,494 --> 00:00:14,494
+1. println(testSuiteContext.getTestSuiteId())
+
+6
+00:00:14,500 --> 00:00:14,501
+5. closeBrowser()
+

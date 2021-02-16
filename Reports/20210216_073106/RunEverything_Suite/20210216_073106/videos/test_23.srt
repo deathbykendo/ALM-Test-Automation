@@ -1,0 +1,24 @@
+1
+00:00:00,473 --> 00:00:00,473
+1. callTestCase(findTestCase("Search_Page/_AddToCart_Search"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,541 --> 00:00:00,542
+1. try
+
+3
+00:00:00,544 --> 00:00:00,544
+1. search_term
+
+4
+00:00:00,547 --> 00:00:00,547
+2. search_term = Search_term_default
+
+5
+00:00:00,549 --> 00:00:00,550
+5. callTestCase(findTestCase("_Goto_page/_Goto_Home_page"), [:], STOP_ON_FAILURE)
+
+6
+00:00:00,625 --> 00:00:00,626
+1. click(findTestObject("Page_My Dashboard/ALM_logo_home"))
+

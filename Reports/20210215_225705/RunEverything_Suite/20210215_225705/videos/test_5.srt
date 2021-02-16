@@ -1,0 +1,4 @@
+1
+00:00:00,772 --> 00:00:00,774
+1. click(findTestObject("Page_Login/button_Registration"))
+

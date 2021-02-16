@@ -1,0 +1,29 @@
+{"testCaseName":"Test Cases/Login Page/TC01 - Login","testCaseId":"Test Cases/Login Page/TC01 - Login"}
+{"testCaseName":"Test Cases/Login Page/TC06 - Log out","testCaseId":"Test Cases/Login Page/TC06 - Log out"}
+{"testCaseName":"Test Cases/Login Page/TC02 - Check credit application page","testCaseId":"Test Cases/Login Page/TC02 - Check credit application page"}
+{"testCaseName":"Test Cases/Login Page/TC03 - Check Forgotten password page","testCaseId":"Test Cases/Login Page/TC03 - Check Forgotten password page"}
+{"testCaseName":"Test Cases/Login Page/TC04 - Check Registration page","testCaseId":"Test Cases/Login Page/TC04 - Check Registration page"}
+{"testCaseName":"Test Cases/Login Page/TC05 - Check invalid username password","testCaseId":"Test Cases/Login Page/TC05 - Check invalid username password"}
+{"testCaseName":"Test Cases/Login Page/TC01 - Login","testCaseId":"Test Cases/Login Page/TC01 - Login"}
+{"testCaseName":"Test Cases/AggregateList_Page/TC01 - add to cart from aggregate list","testCaseId":"Test Cases/AggregateList_Page/TC01 - add to cart from aggregate list"}
+{"testCaseName":"Test Cases/Browse_Page/TC01 - add to cart from browse","testCaseId":"Test Cases/Browse_Page/TC01 - add to cart from browse"}
+{"testCaseName":"Test Cases/Browse_Page/TC02 - check all browse categories","testCaseId":"Test Cases/Browse_Page/TC02 - check all browse categories"}
+{"testCaseName":"Test Cases/Checkout_Page/TC01 - standard checkout","testCaseId":"Test Cases/Checkout_Page/TC01 - standard checkout"}
+{"testCaseName":"Test Cases/Favourites_Page/TC01 - Add to cart from favourites","testCaseId":"Test Cases/Favourites_Page/TC01 - Add to cart from favourites"}
+{"testCaseName":"Test Cases/HeaderFooter/TC01 - Check Footer links","testCaseId":"Test Cases/HeaderFooter/TC01 - Check Footer links"}
+{"testCaseName":"Test Cases/HeaderFooter/TC02 - Check Menus","testCaseId":"Test Cases/HeaderFooter/TC02 - Check Menus"}
+{"testCaseName":"Test Cases/HeaderFooter/TC03 - Check Categories","testCaseId":"Test Cases/HeaderFooter/TC03 - Check Categories"}
+{"testCaseName":"Test Cases/KeyRetail_Page/TC01 - Add to Cart from KeyRetail","testCaseId":"Test Cases/KeyRetail_Page/TC01 - Add to Cart from KeyRetail"}
+{"testCaseName":"Test Cases/MyCart_Page/TC02 - delete product from cart","testCaseId":"Test Cases/MyCart_Page/TC02 - delete product from cart"}
+{"testCaseName":"Test Cases/MyCart_Page/TC03 - update product qty","testCaseId":"Test Cases/MyCart_Page/TC03 - update product qty"}
+{"testCaseName":"Test Cases/QDA_Page/TC1 - validate QDA pricing correct","testCaseId":"Test Cases/QDA_Page/TC1 - validate QDA pricing correct"}
+{"testCaseName":"Test Cases/AggregateList_Page/TC02 - add to cart without a values","testCaseId":"Test Cases/AggregateList_Page/TC02 - add to cart without a values"}
+{"testCaseName":"Test Cases/QuickOrder_Page/TC01 - add to cart from quick order","testCaseId":"Test Cases/QuickOrder_Page/TC01 - add to cart from quick order"}
+{"testCaseName":"Test Cases/MyCart_Page/TC01 - Empty Cart","testCaseId":"Test Cases/MyCart_Page/TC01 - Empty Cart"}
+{"testCaseName":"Test Cases/Search_Page/TC01 - add to cart from Search","testCaseId":"Test Cases/Search_Page/TC01 - add to cart from Search"}
+{"testCaseName":"Test Cases/Search_Page/TC02 - Search for a product","testCaseId":"Test Cases/Search_Page/TC02 - Search for a product"}
+{"testCaseName":"Test Cases/Search_Page/TC03 - Typeahead Search","testCaseId":"Test Cases/Search_Page/TC03 - Typeahead Search"}
+{"testCaseName":"Test Cases/ShoppingTemplate_Page/TC01 - Create Shopping Template from Browse","testCaseId":"Test Cases/ShoppingTemplate_Page/TC01 - Create Shopping Template from Browse"}
+{"testCaseName":"Test Cases/ShoppingTemplateDetails_Page/TC01 - Add to Cart from Shopping TemplateDetail","testCaseId":"Test Cases/ShoppingTemplateDetails_Page/TC01 - Add to Cart from Shopping TemplateDetail"}
+{"testCaseName":"Test Cases/ShoppingTemplate_Page/TC02 - Edit template name","testCaseId":"Test Cases/ShoppingTemplate_Page/TC02 - Edit template name"}
+{"testCaseName":"Test Cases/ShoppingTemplate_Page/TC03 - Delete Template","testCaseId":"Test Cases/ShoppingTemplate_Page/TC03 - Delete Template"}

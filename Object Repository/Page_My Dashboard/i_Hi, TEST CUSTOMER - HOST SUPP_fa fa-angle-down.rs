@@ -6,12 +6,12 @@
    <elementGuidId>c4d10a87-d02a-40c9-9728-2aa9c41ca2b6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//i[2]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//i[@class = 'fa fa-angle-down']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//i[2]</value>
       </entry>
       <entry>
          <key>CSS</key>

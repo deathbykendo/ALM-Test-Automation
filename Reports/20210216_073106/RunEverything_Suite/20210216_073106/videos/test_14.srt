@@ -1,0 +1,128 @@
+1
+00:00:00,400 --> 00:00:00,401
+1. callTestCase(findTestCase("_Goto_page/_Goto_AggregateList_page"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,495 --> 00:00:00,496
+1. click(findTestObject("Page_My Dashboard/span_Aggregate List"))
+
+3
+00:00:09,701 --> 00:00:09,702
+5. delay(short_wait_time)
+
+4
+00:00:15,707 --> 00:00:15,707
+9. verifyElementPresent(findTestObject("Page_Aggregate List/h2_Aggregate List products you ordered in the last 3 months"), 0)
+
+5
+00:00:15,840 --> 00:00:15,840
+5. callTestCase(findTestCase("_Goto_page/_Goto_Favorites_page"), [:], STOP_ON_FAILURE)
+
+6
+00:00:16,339 --> 00:00:16,340
+1. click(findTestObject("Page_My Dashboard/span_Favourites"))
+
+7
+00:00:22,525 --> 00:00:22,526
+5. verifyElementPresent(findTestObject("Page_My Dashboard/span_Favourites"), 0)
+
+8
+00:00:22,668 --> 00:00:22,668
+9. callTestCase(findTestCase("_Goto_page/_Goto_Home_page"), [:], STOP_ON_FAILURE)
+
+9
+00:00:22,753 --> 00:00:22,753
+1. click(findTestObject("Page_My Dashboard/ALM_logo_home"))
+
+10
+00:00:24,749 --> 00:00:24,749
+5. delay(short_wait_time)
+
+11
+00:00:30,754 --> 00:00:30,755
+9. verifyElementPresent(findTestObject("Page_My Dashboard/h2_My Dashboard"), 0)
+
+12
+00:00:30,862 --> 00:00:30,863
+13. callTestCase(findTestCase("_Goto_page/_Goto_MyCart_page"), [:], STOP_ON_FAILURE)
+
+13
+00:00:30,938 --> 00:00:30,938
+1. click(findTestObject("Page_My Dashboard/i_MIP_tip_MiniCart"))
+
+14
+00:00:32,816 --> 00:00:32,817
+5. delay(short_wait_time)
+
+15
+00:00:38,824 --> 00:00:38,825
+9. verifyElementPresent(findTestObject("Page_Your Shopping Cart/h2_My cart"), 0)
+
+16
+00:00:38,932 --> 00:00:38,933
+17. callTestCase(findTestCase("_Goto_page/_Goto_QuickOrder_page"), [:], STOP_ON_FAILURE)
+
+17
+00:00:39,325 --> 00:00:39,325
+1. click(findTestObject("Page_My Dashboard/span_Order"))
+
+18
+00:00:40,580 --> 00:00:40,580
+5. click(findTestObject("Page_My Dashboard/a_Quick Order"))
+
+19
+00:00:42,697 --> 00:00:42,697
+9. delay(short_wait_time)
+
+20
+00:00:48,703 --> 00:00:48,703
+13. verifyElementPresent(findTestObject("Page_Quick Order/h2_Quick Order"), 0)
+
+21
+00:00:48,802 --> 00:00:48,803
+21. callTestCase(findTestCase("_Goto_page/_Goto_ShoppingTemplate_page"), [:], STOP_ON_FAILURE)
+
+22
+00:00:49,287 --> 00:00:49,287
+1. click(findTestObject("Page_My Dashboard/span_Order"))
+
+23
+00:00:50,527 --> 00:00:50,528
+5. click(findTestObject("Page_My Dashboard/a_Shopping Templates"))
+
+24
+00:00:52,475 --> 00:00:52,476
+9. verifyElementPresent(findTestObject("Page_Shopping Templates/h2_Shopping Templates"), 0)
+
+25
+00:00:52,716 --> 00:00:52,717
+25. callTestCase(findTestCase("_Goto_page/_Goto_UploadOrder_page"), [:], STOP_ON_FAILURE)
+
+26
+00:00:53,372 --> 00:00:53,374
+1. click(findTestObject("Page_My Dashboard/span_Order"))
+
+27
+00:00:54,626 --> 00:00:54,627
+5. click(findTestObject("Page_My Dashboard/span_Favourites"))
+
+28
+00:00:59,461 --> 00:00:59,462
+9. delay(short_wait_time)
+
+29
+00:01:05,466 --> 00:01:05,467
+13. verifyElementPresent(findTestObject("Page_My Dashboard/span_Favourites"), 0)
+
+30
+00:01:05,564 --> 00:01:05,564
+29. callTestCase(findTestCase("_Goto_page/_Goto_KeyRetailer_page"), [:], STOP_ON_FAILURE)
+
+31
+00:01:05,975 --> 00:01:05,976
+1. click(findTestObject("Page_My Dashboard/span_Order"))
+
+32
+00:01:07,186 --> 00:01:07,187
+5. click(findTestObject("Page_My Dashboard/a_KR Products"))
+

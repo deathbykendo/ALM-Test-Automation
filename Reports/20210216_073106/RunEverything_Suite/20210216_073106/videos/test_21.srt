@@ -1,0 +1,136 @@
+1
+00:00:00,328 --> 00:00:00,329
+1. callTestCase(findTestCase("QuickOrder_Page/AddToCart_QuickOrder"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,675 --> 00:00:00,675
+1. try
+
+3
+00:00:00,678 --> 00:00:00,678
+1. prod_code
+
+4
+00:00:00,686 --> 00:00:00,687
+2. prod_code = beer1_prodcode
+
+5
+00:00:00,694 --> 00:00:00,695
+5. callTestCase(findTestCase("MyCart_Page/_EmptyCart"), [:], STOP_ON_FAILURE)
+
+6
+00:00:00,771 --> 00:00:00,772
+1. callTestCase(findTestCase("_Goto_page/_Goto_MyCart_page"), [:], STOP_ON_FAILURE)
+
+7
+00:00:00,838 --> 00:00:00,838
+1. click(findTestObject("Page_My Dashboard/i_MIP_tip_MiniCart"))
+
+8
+00:00:03,034 --> 00:00:03,035
+5. delay(short_wait_time)
+
+9
+00:00:09,040 --> 00:00:09,040
+9. verifyElementPresent(findTestObject("Page_Your Shopping Cart/h2_My cart"), 0)
+
+10
+00:00:09,165 --> 00:00:09,165
+5. try
+
+11
+00:00:09,167 --> 00:00:09,167
+1. verifyElementPresent(findTestObject("Page_Your Shopping Cart/h2_Your shopping cart is empty"), 1)
+
+12
+00:00:11,942 --> 00:00:11,942
+2. click(findTestObject("Page_Your Shopping Cart/button_Clear cart"))
+
+13
+00:00:13,225 --> 00:00:13,226
+6. verifyElementPresent(findTestObject("Page_Your Shopping Cart/a_Clear cart now"), 0)
+
+14
+00:00:13,405 --> 00:00:13,406
+10. click(findTestObject("Page_Your Shopping Cart/a_Clear cart now"))
+
+15
+00:00:15,693 --> 00:00:15,693
+14. delay(short_wait_time)
+
+16
+00:00:21,697 --> 00:00:21,697
+18. verifyElementPresent(findTestObject("Page_Your Shopping Cart/h2_Your shopping cart is empty"), 0)
+
+17
+00:00:21,813 --> 00:00:21,813
+22. delay(short_wait_time)
+
+18
+00:00:27,820 --> 00:00:27,822
+9. prod_count = callTestCase(findTestCase("MyCart_Page/_GetProductCountInCart"), [:], OPTIONAL)
+
+19
+00:00:27,896 --> 00:00:27,896
+1. callTestCase(findTestCase("_Goto_page/_Goto_MyCart_page"), [:], STOP_ON_FAILURE)
+
+20
+00:00:27,969 --> 00:00:27,970
+1. click(findTestObject("Page_My Dashboard/i_MIP_tip_MiniCart"))
+
+21
+00:00:29,763 --> 00:00:29,764
+5. delay(short_wait_time)
+
+22
+00:00:35,770 --> 00:00:35,770
+9. verifyElementPresent(findTestObject("Page_Your Shopping Cart/h2_My cart"), 0)
+
+23
+00:00:35,865 --> 00:00:35,865
+5. MyCart_text = getText(findTestObject("Page_Your Shopping Cart/h2_My cart"))
+
+24
+00:00:36,010 --> 00:00:36,010
+9. OnPage_product_count = MyCart_text.replaceAll("[^0-9]", "")
+
+25
+00:00:36,012 --> 00:00:36,013
+13. println("Num Prod in Cart: " + OnPage_product_count)
+
+26
+00:00:36,015 --> 00:00:36,016
+17. return OnPage_product_count
+
+27
+00:00:36,019 --> 00:00:36,020
+13. callTestCase(findTestCase("_Goto_page/_Goto_QuickOrder_page"), [:], STOP_ON_FAILURE)
+
+28
+00:00:36,096 --> 00:00:36,096
+1. click(findTestObject("Page_My Dashboard/span_Order"))
+
+29
+00:00:37,392 --> 00:00:37,392
+5. click(findTestObject("Page_My Dashboard/a_Quick Order"))
+
+30
+00:00:39,406 --> 00:00:39,407
+9. delay(short_wait_time)
+
+31
+00:00:45,412 --> 00:00:45,412
+13. verifyElementPresent(findTestObject("Page_Quick Order/h2_Quick Order"), 0)
+
+32
+00:00:45,548 --> 00:00:45,548
+17. setText(findTestObject("Page_Quick Order/input_Item code_ItemCode1"), "577536")
+
+33
+00:00:47,828 --> 00:00:47,829
+21. click(findTestObject("Page_Quick Order/h2_Quick Order"))
+
+34
+00:00:49,037 --> 00:00:49,037
+25. setText(findTestObject("Page_Quick Order/input_Cartons_Cartons1"), "1")
+

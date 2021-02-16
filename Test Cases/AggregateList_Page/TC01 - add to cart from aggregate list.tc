@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01 - add to cart from aggregate list</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad6a693d-58f8-4e18-bb43-cc802da3c9f5</testCaseGuid>
+</TestCaseEntity>

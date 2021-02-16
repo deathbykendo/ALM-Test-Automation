@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01 - add to cart from quick order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>092cff97-5e53-4b60-8465-a32b7581bac4</testCaseGuid>
+</TestCaseEntity>

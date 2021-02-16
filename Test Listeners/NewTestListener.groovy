@@ -30,5 +30,28 @@ class NewTestListener {
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
 		println testSuiteContext.getTestSuiteId()
+		/*
+		
+		try {
+			WebUI.navigateToUrl(GlobalVariable.URL_login)
+			
+	   } catch(BrowserNotOpenedException){
+		   
+			WebUI.openBrowser(GlobalVariable.URL_login)
+			WebUI.maximizeWindow()
+	   }*/
+		
+	}
+
+	/**
+	 * Executes after every test suite ends.
+	 * @param testSuiteContext: related information of the executed test suite.
+	 */
+	@AfterTestSuite
+	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
+		println testSuiteContext.getTestSuiteId()
+		
+		
+		//WebUI.closeBrowser()
 	}
 }

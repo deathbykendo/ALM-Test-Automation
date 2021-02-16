@@ -3,15 +3,15 @@
    <description></description>
    <name>a_Food</name>
    <tag></tag>
-   <elementGuidId>6afc3200-c117-4aa7-9263-aca5bbc8be42</elementGuidId>
+   <elementGuidId>601ae05d-bd91-470f-afba-36a9f8a182d6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>li.visible-lg.visible-md.open > div.dropDown.dropdown-menu > ul > li.yCmsComponent.js-submenu-item > a[title=&quot;Food&quot;]</value>
+         <value>li.visible-lg.visible-md.open > div.dropDown.dropdown-menu > ul > li.yCmsComponent.visible-lg.visible-md.js-submenu-item > a[title=&quot;Food&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(text(),'Food')])[3]</value>
+         <value>(//a[contains(text(),'Food')])[5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,42 +49,42 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-homepage pageType-ContentPage template-pages-layout-landingLayout2Page pageLabel-homepage language-en&quot;]/header[@class=&quot;navbar-fixed-top&quot;]/div[@class=&quot;header-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12&quot;]/nav[@class=&quot;bar&quot;]/ul[@class=&quot;clearfix navComponent-list&quot;]/div[@class=&quot;visible-lg visible-md&quot;]/li[@class=&quot;visible-lg visible-md open&quot;]/div[@class=&quot;dropDown dropdown-menu&quot;]/ul[1]/li[@class=&quot;yCmsComponent js-submenu-item&quot;]/a[1]</value>
+      <value>/html[1]/body[@class=&quot;page-homepage pageType-ContentPage template-pages-layout-landingLayout2Page pageLabel-homepage smartedit-page-uid-homepage smartedit-page-uuid-eyJpdGVtSWQiOiJob21lcGFnZSIsImNhdGFsb2dJZCI6ImFsbXJldGFpbGVyc0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ== smartedit-catalog-version-uuid-almretailersContentCatalog/Online  language-en&quot;]/header[@class=&quot;navbar-fixed-top&quot;]/div[@class=&quot;header-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12&quot;]/nav[@class=&quot;bar&quot;]/ul[@class=&quot;clearfix navComponent-list&quot;]/div[@class=&quot;visible-lg visible-md&quot;]/li[@class=&quot;visible-lg visible-md open&quot;]/div[@class=&quot;dropDown dropdown-menu&quot;]/ul[1]/li[@class=&quot;yCmsComponent visible-lg visible-md js-submenu-item&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>(//a[contains(text(),'Food')])[3]</value>
+      <value>(//a[contains(text(),'Food')])[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other Drinks'])[3]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cold Beverages'])[3]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non Alcoholic Beverages'])[3]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other Drinks'])[3]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tobacco'])[3]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Food'])[6]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[3]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tobacco'])[5]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/li/div/ul/li[10]/a</value>
+      <value>//div/li/div/ul/li[19]/a</value>
    </webElementXpaths>
 </WebElementEntity>

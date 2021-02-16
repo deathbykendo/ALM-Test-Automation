@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Cartons_Cartons7</name>
    <tag></tag>
-   <elementGuidId>c8f2400e-3a70-44d0-81d1-b842c2326fdf</elementGuidId>
+   <elementGuidId>ce2a04ec-8918-484b-a72b-92f907554f53</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#Cartons7</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='Cartons7']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Cartons7</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -57,13 +57,6 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='Cartons7']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='quickOrder']/div/div[3]/ul/li[8]/div[5]/div/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

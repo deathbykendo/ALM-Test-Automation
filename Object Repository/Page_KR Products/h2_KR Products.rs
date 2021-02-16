@@ -10,6 +10,10 @@
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes, leave'])[1]/following::h2[1]</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>h2</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[(text() = '
 			KR Products 481 products available
@@ -17,12 +21,8 @@
 			KR Products 481 products available
 						')]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>h2</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>
-			KR Products 481 products available
+			KR Products 482 products available
 						</value>
    </webElementProperties>
    <webElementProperties>
@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-productList pageType-CategoryPage template-pages-category-productListPage  language-en&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;heading&quot;]/h2[1]</value>
+      <value>/html[1]/body[@class=&quot;page-productList pageType-CategoryPage template-pages-category-productListPage  smartedit-page-uid-productList smartedit-page-uuid-eyJpdGVtSWQiOiJwcm9kdWN0TGlzdCIsImNhdGFsb2dJZCI6ImFsbXJldGFpbGVyc0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ== smartedit-catalog-version-uuid-almretailersContentCatalog/Online  language-en&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;heading&quot;]/h2[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

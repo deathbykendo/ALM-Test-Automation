@@ -1,0 +1,32 @@
+1
+00:00:00,644 --> 00:00:00,645
+1. click(findTestObject("Page_Login/button_Registration"))
+
+2
+00:00:03,405 --> 00:00:03,406
+5. verifyElementVisible(findTestObject("Page_Registration/button_Register now"))
+
+3
+00:00:03,559 --> 00:00:03,560
+9. verifyElementVisible(findTestObject("Page_Registration/h1_Registration"))
+
+4
+00:00:03,741 --> 00:00:03,742
+13. verifyElementVisible(findTestObject("Page_Registration/input_Customer ID_customerId"))
+
+5
+00:00:03,893 --> 00:00:03,894
+17. verifyElementVisible(findTestObject("Page_Registration/input_Email address_email"))
+
+6
+00:00:04,046 --> 00:00:04,047
+21. verifyElementVisible(findTestObject("Page_Registration/input_Postcode_postCode"))
+
+7
+00:00:04,212 --> 00:00:04,213
+27. Check for error message, if fields blank
+
+8
+00:00:06,185 --> 00:00:06,185
+31. verifyElementVisible(findTestObject("Page_Registration/div_Please fill all mandatory fields"))
+

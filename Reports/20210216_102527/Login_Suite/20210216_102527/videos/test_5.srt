@@ -1,0 +1,44 @@
+1
+00:00:01,187 --> 00:00:01,188
+1. callTestCase(findTestCase("_Goto_page/_Goto_Login_page"), [:], STOP_ON_FAILURE)
+
+2
+00:00:01,355 --> 00:00:01,356
+1. if (verifyElementVisible(findTestObject("Page_My Dashboard/span_Favourites"), OPTIONAL))
+
+3
+00:00:07,131 --> 00:00:07,132
+5. navigateToUrl(URL_login)
+
+4
+00:00:10,476 --> 00:00:10,476
+5. click(findTestObject("Page_Login/button_Registration"))
+
+5
+00:00:13,256 --> 00:00:13,257
+9. verifyElementVisible(findTestObject("Page_Registration/button_Register now"))
+
+6
+00:00:13,581 --> 00:00:13,582
+13. verifyElementVisible(findTestObject("Page_Registration/h1_Registration"))
+
+7
+00:00:13,951 --> 00:00:13,953
+17. verifyElementVisible(findTestObject("Page_Registration/input_Customer ID_customerId"))
+
+8
+00:00:14,261 --> 00:00:14,262
+21. verifyElementVisible(findTestObject("Page_Registration/input_Email address_email"))
+
+9
+00:00:14,594 --> 00:00:14,595
+25. verifyElementVisible(findTestObject("Page_Registration/input_Postcode_postCode"))
+
+10
+00:00:15,005 --> 00:00:15,006
+31. Check for error message, if fields blank
+
+11
+00:00:17,096 --> 00:00:17,098
+35. verifyElementVisible(findTestObject("Page_Registration/div_Please fill all mandatory fields"))
+

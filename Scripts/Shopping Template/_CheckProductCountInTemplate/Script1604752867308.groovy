@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 //--------------------------------------------------------------------------
 // Pass the expected product count when calling test
-// WebUI.callTestCase(findTestCase('MyCart_Page/_CheckProductCountInCart'), [('product_count'):'4'], FailureHandling.STOP_ON_FAILURE)
+// WebUI.callTestCase(findTestCase('_Common/MyCart/_CheckProductCountInCart'), [('product_count'):'4'], FailureHandling.STOP_ON_FAILURE)
 //--------------------------------------------------------------------------
 // If no search_term passed set default one
 try {

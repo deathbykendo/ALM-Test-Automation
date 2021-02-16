@@ -6,6 +6,10 @@
    <elementGuidId>c222e75c-0f33-4f94-bc2a-a14fba01c68b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'QDA')])[5]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>li.visible-lg.visible-md.open > div.dropDown.dropdown-menu > ul > li.visible-lg.visible-md.js-submenu-item.dropdown-childmenu > div.dropDown.dropdown-menu > ul > li.yCmsComponent.js-submenu-item > a[title=&quot;QDA&quot;]</value>
       </entry>
@@ -13,12 +17,8 @@
          <key>BASIC</key>
          <value>//*[@href = '/customer/c/promotions/QDA?q=:description-asc:promotionType:QDA' and @title = 'QDA' and (text() = 'QDA' or . = 'QDA')]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'QDA')])[5]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-homepage pageType-ContentPage template-pages-layout-landingLayout2Page pageLabel-homepage language-en&quot;]/header[@class=&quot;navbar-fixed-top&quot;]/div[@class=&quot;header-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12&quot;]/nav[@class=&quot;bar&quot;]/ul[@class=&quot;clearfix navComponent-list&quot;]/div[@class=&quot;visible-lg visible-md&quot;]/li[@class=&quot;visible-lg visible-md open&quot;]/div[@class=&quot;dropDown dropdown-menu&quot;]/ul[1]/li[@class=&quot;visible-lg visible-md js-submenu-item dropdown-childmenu&quot;]/div[@class=&quot;dropDown dropdown-menu&quot;]/ul[1]/li[@class=&quot;yCmsComponent js-submenu-item&quot;]/a[1]</value>
+      <value>/html[1]/body[@class=&quot;page-homepage pageType-ContentPage template-pages-layout-landingLayout2Page pageLabel-homepage smartedit-page-uid-homepage smartedit-page-uuid-eyJpdGVtSWQiOiJob21lcGFnZSIsImNhdGFsb2dJZCI6ImFsbXJldGFpbGVyc0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ== smartedit-catalog-version-uuid-almretailersContentCatalog/Online  language-en&quot;]/header[@class=&quot;navbar-fixed-top&quot;]/div[@class=&quot;header-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12&quot;]/nav[@class=&quot;bar&quot;]/ul[@class=&quot;clearfix navComponent-list&quot;]/div[@class=&quot;visible-lg visible-md&quot;]/li[@class=&quot;visible-lg visible-md open&quot;]/div[@class=&quot;dropDown dropdown-menu&quot;]/ul[1]/li[@class=&quot;visible-lg visible-md js-submenu-item dropdown-childmenu&quot;]/div[@class=&quot;dropDown dropdown-menu&quot;]/ul[1]/li[@class=&quot;yCmsComponent js-submenu-item&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

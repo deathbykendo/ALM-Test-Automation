@@ -1,0 +1,44 @@
+1
+00:00:01,122 --> 00:00:01,122
+1. callTestCase(findTestCase("Search_Page/_AddToCart_Search"), ["search_term":"jim bean"], STOP_ON_FAILURE)
+
+2
+00:00:01,355 --> 00:00:01,355
+1. try
+
+3
+00:00:01,358 --> 00:00:01,359
+1. search_term
+
+4
+00:00:01,361 --> 00:00:01,361
+5. callTestCase(findTestCase("_Goto_page/_Goto_Home_page"), [:], STOP_ON_FAILURE)
+
+5
+00:00:01,497 --> 00:00:01,497
+1. click(findTestObject("Page_My Dashboard/ALM_logo_home"))
+
+6
+00:00:03,003 --> 00:00:03,004
+5. delay(short_wait_time)
+
+7
+00:00:09,009 --> 00:00:09,010
+9. verifyElementPresent(findTestObject("Page_My Dashboard/h2_My Dashboard"), 0)
+
+8
+00:00:09,329 --> 00:00:09,329
+9. callTestCase(findTestCase("Search_Page/_Search_product"), ["search_term":search_term], STOP_ON_FAILURE)
+
+9
+00:00:09,410 --> 00:00:09,411
+1. try
+
+10
+00:00:09,413 --> 00:00:09,414
+1. search_term
+
+11
+00:00:09,416 --> 00:00:09,416
+5. setText(findTestObject("Page_My Dashboard/input_MIP_js-site-search-input"), search_term)
+

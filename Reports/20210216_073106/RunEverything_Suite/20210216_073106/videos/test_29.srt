@@ -1,0 +1,20 @@
+1
+00:00:00,303 --> 00:00:00,304
+1. callTestCase(findTestCase("ShoppingTemplate_Page/_DeleteShoppingTemplate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,836 --> 00:00:00,836
+1. callTestCase(findTestCase("_Goto_page/_Goto_ShoppingTemplate_page"), [:], STOP_ON_FAILURE)
+
+3
+00:00:00,923 --> 00:00:00,924
+1. click(findTestObject("Page_My Dashboard/span_Order"))
+
+4
+00:00:05,579 --> 00:00:05,579
+1. println(testSuiteContext.getTestSuiteId())
+
+5
+00:00:05,581 --> 00:00:05,582
+5. closeBrowser()
+

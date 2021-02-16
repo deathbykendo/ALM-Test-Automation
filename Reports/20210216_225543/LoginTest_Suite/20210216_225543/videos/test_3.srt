@@ -1,0 +1,32 @@
+1
+00:00:00,643 --> 00:00:00,643
+1. callTestCase(findTestCase("QuickOrder_Page/AddToCart_QuickOrder"), [:], STOP_ON_FAILURE)
+
+2
+00:00:01,211 --> 00:00:01,211
+1. try
+
+3
+00:00:01,215 --> 00:00:01,221
+1. prod_code
+
+4
+00:00:01,238 --> 00:00:01,241
+2. prod_code = beer1_prodcode
+
+5
+00:00:01,244 --> 00:00:01,246
+5. callTestCase(findTestCase("MyCart_Page/_EmptyCart"), [:], STOP_ON_FAILURE)
+
+6
+00:00:01,823 --> 00:00:01,823
+1. callTestCase(findTestCase("_Goto_page/_Goto_MyCart_page"), [:], STOP_ON_FAILURE)
+
+7
+00:00:02,391 --> 00:00:02,395
+1. click(findTestObject("Page_My Dashboard/i_MIP_tip_MiniCart"))
+
+8
+00:00:10,723 --> 00:00:10,723
+1. println(testSuiteContext.getTestSuiteId())
+

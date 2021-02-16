@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('_Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Get the text from the element
 MyCart_text = WebUI.getText(findTestObject('Page_Your Shopping Cart/h2_My cart'))
