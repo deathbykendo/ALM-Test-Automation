@@ -17,3 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
  GlobalVariable.ShoppingTemplateName = 'wine_3525'
+
+// Edited by GIT Hub
