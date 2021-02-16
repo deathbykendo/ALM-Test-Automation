@@ -1,4 +1,0 @@
-1
-00:00:00,570 --> 00:00:00,571
-1. setText(findTestObject("Page_Login/input_Customer ID_j_username"), "My_Fake_Username")
-

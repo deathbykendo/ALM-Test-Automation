@@ -1,8 +1,0 @@
-8
-00:00:34,321 --> 00:00:34,322
-1. println(testSuiteContext.getTestSuiteId())
-
-9
-00:00:34,330 --> 00:00:34,331
-5. closeBrowser()
-
