@@ -26,4 +26,4 @@ println("hhhhhhhhhhhhhh>>>>>>>>:" + GlobalVariable.ShoppingTemplateName)
 
 
 
-println("AAAAAAAAAAAAAAAAA>>>>>>>>:" + GlobalVariable.ShoppingTemplateName)
+// Edited in GITHUB
