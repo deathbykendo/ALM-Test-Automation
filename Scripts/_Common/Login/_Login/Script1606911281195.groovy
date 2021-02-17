@@ -34,12 +34,21 @@ WebUI.click(findTestObject('Object Repository/Page_Login/button_Login'))
 
 WebUI.delay(GlobalVariable.short_wait_time)
 
-if (WebUI.verifyElementVisible(findTestObject('Page_My Dashboard/NewFlash popup'), FailureHandling.OPTIONAL)) {
+WebUI.waitForElementVisible(findTestObject('Page_My Dashboard/NewFlash popup'), 3, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Page_My Dashboard/NewFlash popup'), 3, FailureHandling.OPTIONAL)
+
+if (WebUI.waitForElementVisible(findTestObject('Page_My Dashboard/NewFlash popup'), 3, FailureHandling.CONTINUE_ON_FAILURE)) {
     WebUI.click(findTestObject('Page_My Dashboard/NewFlash popup'))
 
     WebUI.delay(GlobalVariable.short_wait_time)
 }
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_My Dashboard/h2_My Dashboard'), GlobalVariable.short_wait_time)
+if (WebUI.waitForElementVisible(findTestObject('Page_My Dashboard/NewFlash popup'), 3, FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Page_My Dashboard/NewFlash popup'))
 
+	WebUI.delay(GlobalVariable.short_wait_time)
+}
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_My Dashboard/h2_My Dashboard'), GlobalVariable.short_wait_time)
 

@@ -23,5 +23,5 @@ WebUI.delay(GlobalVariable.short_wait_time)
 WebUI.click(findTestObject('Page_My Dashboard/a_Aggregate List'))
 
 WebUI.verifyElementPresent(findTestObject('Page_Aggregate List/h2_Aggregate List products you ordered in the last 3 months'), 
-    0)
+    0, FailureHandling.STOP_ON_FAILURE)
 

@@ -18,5 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Page_My Dashboard/span_Favourites'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Favourites/h2_Favourites'), 0)
+WebUI.delay(GlobalVariable.medium_wait_time)
+
+WebUI.verifyElementPresent(findTestObject('Page_Favourites/h2_Favourites'), GlobalVariable.medium_wait_time)
 
