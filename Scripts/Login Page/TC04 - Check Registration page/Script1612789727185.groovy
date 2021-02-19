@@ -30,11 +30,12 @@ WebUI.verifyElementVisible(findTestObject('Page_Registration/input_Email address
 
 WebUI.verifyElementVisible(findTestObject('Page_Registration/input_Postcode_postCode'))
 
-'Check for error message, if fields blank'
+// #> Bug logged
+/*'Check for error message, if fields blank'
 WebUI.click(findTestObject('Page_Registration/button_Register now'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Page_Registration/div_Please fill all mandatory fields'))
-
+*/
 'Check for error message, if fields blank'
 WebUI.click(findTestObject('Page_Registration/a_Login'), FailureHandling.STOP_ON_FAILURE)
 

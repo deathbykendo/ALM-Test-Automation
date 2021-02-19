@@ -18,3 +18,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('_Common/Login/_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.setText(findTestObject('Page_Login/input_Customer ID_j_username'), 'Finished!!!!')
+

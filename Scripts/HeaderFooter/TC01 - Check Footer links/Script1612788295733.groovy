@@ -16,8 +16,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('_Common/Login/_Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 // Check Privacy link
 WebUI.click(findTestObject('Page_My Dashboard/a_Privacy policy'))
 
@@ -31,6 +29,7 @@ WebUI.closeWindowIndex(1)
 
 // Check Terms and condition link
 WebUI.switchToWindowIndex(0)
+
 WebUI.click(findTestObject('Page_My Dashboard/a_Terms  conditions'))
 
 WebUI.delay(GlobalVariable.short_wait_time)
@@ -43,6 +42,7 @@ WebUI.closeWindowIndex(1)
 
 // Check TRading link
 WebUI.switchToWindowIndex(0)
+
 WebUI.click(findTestObject('Page_My Dashboard/a_Trading terms'))
 
 WebUI.delay(GlobalVariable.short_wait_time)
@@ -55,6 +55,7 @@ WebUI.closeWindowIndex(1)
 
 // Check Credit link
 WebUI.switchToWindowIndex(0)
+
 WebUI.click(findTestObject('Page_My Dashboard/a_Credit reporting policy'))
 
 WebUI.delay(GlobalVariable.short_wait_time)
@@ -67,6 +68,7 @@ WebUI.closeWindowIndex(1)
 
 // Check Help link
 WebUI.switchToWindowIndex(0)
+
 WebUI.click(findTestObject('Page_My Dashboard/a_Help'))
 
 WebUI.delay(GlobalVariable.short_wait_time)
@@ -79,6 +81,7 @@ WebUI.closeWindowIndex(1)
 
 // Check Privacy link
 WebUI.switchToWindowIndex(0)
+
 WebUI.click(findTestObject('Page_My Dashboard/a_Contact us'))
 
 WebUI.delay(GlobalVariable.short_wait_time)
@@ -88,5 +91,6 @@ WebUI.switchToWindowIndex(1)
 WebUI.verifyElementVisible(findTestObject('Page_My Dashboard/a_Contact us'))
 
 WebUI.closeWindowIndex(1)
+
 WebUI.switchToWindowIndex(0)
 
