@@ -19,3 +19,5 @@ import internal.GlobalVariable as GlobalVariable
  GlobalVariable.ShoppingTemplateName = 'wine_3525'
 
 // Edited by GIT Hub
+
+// Test commit
