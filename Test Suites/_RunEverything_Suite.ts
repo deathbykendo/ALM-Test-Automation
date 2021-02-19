@@ -123,7 +123,7 @@
       <guid>dad83905-5e98-41f3-9769-7cc08c32a6d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/QDA_Page/TC1 - validate QDA pricing correct</testCaseId>
+      <testCaseId>Test Cases/QDA_Prom_PS_BNS_Page/TC1 - validate QDA pricing correct</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2c3af294-a8e6-4d64-acf7-af2020c7f645</guid>

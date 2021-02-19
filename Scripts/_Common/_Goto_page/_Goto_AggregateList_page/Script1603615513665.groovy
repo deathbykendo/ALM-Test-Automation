@@ -20,6 +20,8 @@ WebUI.click(findTestObject('Page_My Dashboard/span_Order'))
 
 WebUI.delay(GlobalVariable.short_wait_time)
 
+WebUI.waitForElementVisible(findTestObject('Page_Login/btn_Login'), 10)
+
 WebUI.click(findTestObject('Page_My Dashboard/a_Aggregate List'))
 
 WebUI.verifyElementPresent(findTestObject('Page_Aggregate List/h2_Aggregate List products you ordered in the last 3 months'), 
