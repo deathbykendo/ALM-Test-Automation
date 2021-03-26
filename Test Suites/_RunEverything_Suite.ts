@@ -60,18 +60,6 @@
       <testCaseId>Test Cases/AggregateList_Page/TC01 - add to cart from aggregate list</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bfeb8a6c-a3f8-4bae-a545-ad7a1ec5a8d3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Browse_Page/TC01 - add to cart from browse</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d71a2328-0018-48a8-acaf-867c5463f8ed</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Browse_Page/TC02 - check all browse categories</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>e134a0c9-0382-4472-929c-36c6e15261bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -184,5 +172,23 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingTemplate_Page/TC03 - Delete Template</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bfeb8a6c-a3f8-4bae-a545-ad7a1ec5a8d3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Browse_Page/TC01 - add to cart from browse</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d71a2328-0018-48a8-acaf-867c5463f8ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Browse_Page/TC02 - check all browse categories</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1ad21ecb-5d39-4f23-adc2-20eda03c2eb5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login Page/TC06 - Log out</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('_Common/Search/_AddToCart_Search'), [('search_term') : GlobalVariable.beer1_prodcode], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common Scripts/Search/_AddToCart_Search'), [('search_term') : GlobalVariable.beer1_prodcode], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('_Common/MyCart/_DeleteProductFromCart'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common Scripts/MyCart/_DeleteProductFromCart'), [:], FailureHandling.STOP_ON_FAILURE)
 

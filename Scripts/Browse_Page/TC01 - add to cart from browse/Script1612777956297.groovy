@@ -16,5 +16,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('_Common/Browse/_AddToCart_Browse'), [('category') : 'wine'], FailureHandling.OPTIONAL)
+WebUI.callTestCase(findTestCase('_Common Scripts/Browse/_AddToCart_Browse'), [('category') : 'wine'], FailureHandling.OPTIONAL)
 

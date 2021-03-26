@@ -33,11 +33,11 @@ qda_tot_cost = (qda_price * qda_qty)
 
 println('qda_tot_cost :' + qda_tot_cost)
 
-WebUI.callTestCase(findTestCase('_Common/MyCart/_EmptyCart'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common Scripts/MyCart/_EmptyCart'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('_Common/Search/_AddToCart_Search'), [('search_term') : qda_prodcode], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common Scripts/Search/_AddToCart_Search'), [('search_term') : qda_prodcode], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common Scripts/_Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 /// ** verify that QDA product is same as cart product
 cart_prodcode = WebUI.getText(findTestObject('Page_Your Shopping Cart/span_product'))
@@ -52,7 +52,7 @@ WebUI.verifyEqual(qda_prodcode, cart_prodcode)
 
 //--------------------------------------
 // refresh Cart with qty withn QDA Qty
-WebUI.callTestCase(findTestCase('_Common/MyCart/_UpdateProduct_Qty'), [('qty') : qda_qty_str], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common Scripts/MyCart/_UpdateProduct_Qty'), [('qty') : qda_qty_str], FailureHandling.STOP_ON_FAILURE)
 
 total_cost = WebUI.getText(findTestObject('Page_Your Shopping Cart/row_0H_total_price'))
 
@@ -83,7 +83,7 @@ println('test with qty less than QDA qty ' + qda_qty_less)
 
 qda_qty_less_str = String.valueOf(qda_qty_less)
 
-WebUI.callTestCase(findTestCase('_Common/MyCart/_UpdateProduct_Qty'), [('qty') : qda_qty_less_str], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common Scripts/MyCart/_UpdateProduct_Qty'), [('qty') : qda_qty_less_str], FailureHandling.STOP_ON_FAILURE)
 
 cart_qty2 = WebUI.getAttribute(findTestObject('Page_Your Shopping Cart/input_Cartons_cartEntries0.innerCartEntry.newCartonQty'), 
     'value')

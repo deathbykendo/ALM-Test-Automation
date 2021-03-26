@@ -30,13 +30,13 @@ catch (Exception ex) {
 } 
 
 if (category == 'beer') {
-    WebUI.callTestCase(findTestCase('_Common/Browse/_Browse_Beer'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_Common Scripts/Browse/_Browse_Beer'), [:], FailureHandling.STOP_ON_FAILURE)
 } else if (category == 'wine') {
-    WebUI.callTestCase(findTestCase('_Common/Browse/_Browse_Wine'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_Common Scripts/Browse/_Browse_Wine'), [:], FailureHandling.STOP_ON_FAILURE)
 } else if (category == 'cider') {
-    WebUI.callTestCase(findTestCase('_Common/Browse/_Browse_Cider'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_Common Scripts/Browse/_Browse_Cider'), [:], FailureHandling.STOP_ON_FAILURE)
 } else {
-    WebUI.callTestCase(findTestCase('_Common/Browse/_Browse_Beer'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_Common Scripts/Browse/_Browse_Beer'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.sendKeys(findTestObject('Page_Browse/input_Cartons_innerAddToCartFormList0.cartonQty'), '1')
@@ -66,7 +66,7 @@ WebUI.click(findTestObject('Page_Browse/a_Add to list'))
 
 WebUI.delay(3)
 
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_ShoppingTemplate_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common Scripts/_Goto_page/_Goto_ShoppingTemplate_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Click on the new Shopping Template Link
 TestObject to = new TestObject('objectName')
