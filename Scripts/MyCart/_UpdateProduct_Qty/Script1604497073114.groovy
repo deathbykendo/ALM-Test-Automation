@@ -24,7 +24,11 @@ catch (Exception ex) {
     qty = '2'
 } 
 
+<<<<<<< HEAD
 WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
+=======
+WebUI.callTestCase(findTestCase('_Common Scripts/_Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
+>>>>>>> 09d6cc0f6f5b59a18350f7336e67b8aae1304f03
 WebUI.setText(findTestObject('Page_Your Shopping Cart/input_Cartons_cartEntries0.innerCartEntry.newCartonQty'), qty)
 
 WebUI.click(findTestObject('Page_Your Shopping Cart/button_Update Cart'))

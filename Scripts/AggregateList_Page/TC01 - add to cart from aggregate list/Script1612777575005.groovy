@@ -17,4 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 
-WebUI.callTestCase(findTestCase('_Common/AggregateList/AddToCart_AggregateList'), [('num_prod_to_add'): 3], FailureHandling.OPTIONAL)
+WebUI.callTestCase(findTestCase('_Common Scripts/AggregateList/AddToCart_AggregateList'), [('num_prod_to_add'): 3], FailureHandling.OPTIONAL)

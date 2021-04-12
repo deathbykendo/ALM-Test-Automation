@@ -15,6 +15,6 @@
       <guid>a7cf6531-37c0-44f4-85cb-a7e6e05abd6a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/QDA_Page/TC1 - validate QDA pricing correct</testCaseId>
+      <testCaseId>Test Cases/QDA_Prom_PS_BNS_Page/TC1 - validate QDA pricing correct</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
