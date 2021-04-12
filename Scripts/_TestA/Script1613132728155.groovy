@@ -24,6 +24,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 GlobalVariable.ShoppingTemplateName = "my name"
 println("hhhhhhhhhhhhhh>>>>>>>>:" + GlobalVariable.ShoppingTemplateName)
 
+// KS was here
 
 
 // Edited in GITHUB
+//Ravi was here

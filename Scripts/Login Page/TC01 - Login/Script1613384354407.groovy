@@ -18,3 +18,4 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('_Common Scripts/Login/_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+// probably the most used test case
