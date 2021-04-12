@@ -21,7 +21,7 @@ templateName = GlobalVariable.ShoppingTemplateName
 
 templateName = 'wine_6843'
 
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_ShoppingTemplate_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_ShoppingTemplate_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Verify that the Template name appears on the page
 WebUI.verifyTextPresent(templateName, false)

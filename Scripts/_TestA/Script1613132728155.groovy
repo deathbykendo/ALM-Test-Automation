@@ -20,10 +20,8 @@ import org.openqa.selenium.WebElement
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-// Place the newly created TemplateName in the Global Variables
-GlobalVariable.ShoppingTemplateName = "my name"
-println("hhhhhhhhhhhhhh>>>>>>>>:" + GlobalVariable.ShoppingTemplateName)
+
+int num = GlobalVariable.user_row
 
 
 
-// Edited in GITHUB

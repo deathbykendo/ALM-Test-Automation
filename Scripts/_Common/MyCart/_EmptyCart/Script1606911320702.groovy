@@ -16,20 +16,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(GlobalVariable.medium_wait_time)
 
 try {
-	WebUI.verifyElementPresent(findTestObject('Page_Your Shopping Cart/h2_Your shopping cart is empty'), 1)
-	
- } catch(Exception ex) {
-	WebUI.click(findTestObject('Page_Your Shopping Cart/button_Clear cart'))
- 	WebUI.verifyElementPresent(findTestObject('Page_Your Shopping Cart/a_Clear cart now'), 0)
- 	WebUI.click(findTestObject('Page_Your Shopping Cart/a_Clear cart now'))
- 	WebUI.delay(GlobalVariable.short_wait_time)
- 	WebUI.verifyElementPresent(findTestObject('Page_Your Shopping Cart/h2_Your shopping cart is empty'), 0)
- 	WebUI.delay(GlobalVariable.short_wait_time)
+    WebUI.verifyElementPresent(findTestObject('Page_Your Shopping Cart/h2_Your shopping cart is empty'), 1)
+}
+catch (Exception ex) {
+    WebUI.click(findTestObject('Page_Your Shopping Cart/button_Clear cart'))
 
- }
+    WebUI.verifyElementPresent(findTestObject('Page_Your Shopping Cart/a_Clear cart now'), 0)
+
+    WebUI.click(findTestObject('Page_Your Shopping Cart/a_Clear cart now'))
+
+    WebUI.delay(GlobalVariable.short_wait_time)
+
+    WebUI.verifyElementPresent(findTestObject('Page_Your Shopping Cart/h2_Your shopping cart is empty'), 0)
+
+    WebUI.delay(GlobalVariable.short_wait_time)
+} 
 
 
 

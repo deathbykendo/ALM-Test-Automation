@@ -16,28 +16,35 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-int prod_count = WebUI.callTestCase(findTestCase('_Common/MyCart/_GetProductCountInCart'), [:], FailureHandling.OPTIONAL)
+try {
+    num_prod_to_add
+}
+catch (Exception ex) {
+    num_prod_to_add = 4
+} 
 
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_Favorites_page'), [:], FailureHandling.STOP_ON_FAILURE)
+// Empty Cart otherwise if you run this test case in a row it will fail cause it won't count the products correctly
+WebUI.callTestCase(findTestCase('_Common/MyCart/_EmptyCart'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Page_Browse/input_Cartons_innerAddToCartFormList0.cartonQty'), '1')
+WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_Favorites_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Page_Browse/input_Cartons_innerAddToCartFormList1.cartonQty'), '1')
+for (i = 0; i < num_prod_to_add; i++) {
+    WebUI.sendKeys(findTestObject(('Page_Browse/input_Cartons_innerAddToCartFormList' + i) + '.cartonQty'), '1')
+}
 
-WebUI.sendKeys(findTestObject('Page_Browse/input_Cartons_innerAddToCartFormList2.cartonQty'), '1')
-
-WebUI.sendKeys(findTestObject('Page_Browse/input_Cartons_innerAddToCartFormList3.cartonQty'), '1')
+WebUI.delay(GlobalVariable.short_wait_time)
 
 WebUI.click(findTestObject('Page_Browse/button_Add to Cart'))
+
 WebUI.delay(GlobalVariable.short_wait_time)
 
 if (WebUI.verifyElementVisible(findTestObject('Page_Browse/button_Proceed'), FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Page_Browse/button_Proceed'))
-	WebUI.delay(GlobalVariable.short_wait_time)
+
+    WebUI.delay(GlobalVariable.short_wait_time)
 }
 
 int prod_count2 = WebUI.callTestCase(findTestCase('_Common/MyCart/_GetProductCountInCart'), [:], FailureHandling.OPTIONAL)
 
-WebUI.verifyEqual(prod_count + num_prod_to_add, prod_count2)
-
+WebUI.verifyEqual(num_prod_to_add, prod_count2)
 

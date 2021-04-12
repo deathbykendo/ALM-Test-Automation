@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Get the text from the element
 MyCart_text = WebUI.getText(findTestObject('Page_Your Shopping Cart/h2_My cart'))
@@ -26,4 +26,7 @@ OnPage_product_count = MyCart_text.replaceAll('[^0-9]', '')
 
 println("Num Prod in Cart: " + OnPage_product_count)
 
-return OnPage_product_count
+// Convert string to number
+int OnPage_product_count_F = OnPage_product_count as int
+
+return OnPage_product_count_F

@@ -19,7 +19,7 @@ import internal.GlobalVariable as GlobalVariable
 // -------------------------------------------------------------------
 // This will delete the first Shopping Template in the list
 // -------------------------------------------------------------------
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_ShoppingTemplate_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_ShoppingTemplate_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_Shopping Templates/a_'))
 

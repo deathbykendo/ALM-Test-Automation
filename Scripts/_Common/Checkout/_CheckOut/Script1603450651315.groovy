@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Page_Your Shopping Cart/button_Proceed to checkout'), 0)
 
@@ -27,7 +27,7 @@ WebUI.delay(GlobalVariable.short_wait_time)
 
 WebUI.verifyElementPresent(findTestObject('Page_Checkout/h2_Checkout - Review Order'), 0)
 
-
+// Prevent checkouts from happening in Production
 if (GlobalVariable.URL_login =~ /uat/) {
 	WebUI.click(findTestObject('Page_Checkout/button_Place order'))
 	WebUI.verifyElementPresent(findTestObject('Page_Order Confirmation/h2_Checkout - Order Placed'), 0)

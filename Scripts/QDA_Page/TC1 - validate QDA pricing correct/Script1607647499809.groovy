@@ -37,7 +37,7 @@ WebUI.callTestCase(findTestCase('_Common/MyCart/_EmptyCart'), [:], FailureHandli
 
 WebUI.callTestCase(findTestCase('_Common/Search/_AddToCart_Search'), [('search_term') : qda_prodcode], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 /// ** verify that QDA product is same as cart product
 cart_prodcode = WebUI.getText(findTestObject('Page_Your Shopping Cart/span_product'))

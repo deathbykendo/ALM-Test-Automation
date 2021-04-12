@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>_Login_CSV</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be14603a-de94-48ad-a20b-afb6a6bd0971</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a81dfb7e-33a8-48ab-a92d-2c8b225c3c06</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>343243ae-2b08-42ec-accc-8c381cb671e8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

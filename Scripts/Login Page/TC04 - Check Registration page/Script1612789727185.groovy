@@ -16,7 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_Login_page'), [:], FailureHandling.STOP_ON_FAILURE)
+// Waiting for bug fix from devs	
+throw new Exception("Actual Bug Logged for code fix and waiting to be fixed")
+
+
+WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_Login_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_Login/button_Registration'))
 

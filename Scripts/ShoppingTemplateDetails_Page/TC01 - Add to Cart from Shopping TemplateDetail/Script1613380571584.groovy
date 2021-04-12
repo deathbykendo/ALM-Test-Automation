@@ -27,7 +27,7 @@ catch (Exception ex) {
 
 println("TampleteName:" + templateName + ":")
 
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_ShoppingTemplateDetails_page'), [('templateName'):templateName], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_ShoppingTemplateDetails_page'), [('templateName'):templateName], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('_Common/ShoppingTemplateDetails/_AddToCart_from ShoppingTemplateDetails'), [:], FailureHandling.STOP_ON_FAILURE)
 

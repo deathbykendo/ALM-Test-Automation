@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 int prod_count = WebUI.callTestCase(findTestCase('_Common/MyCart/_GetProductCountInCart'), [:], FailureHandling.OPTIONAL)
 
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_KeyRetailer_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_KeyRetailer_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Page_Browse/input_Cartons_innerAddToCartFormList0.cartonQty'), '1')
 

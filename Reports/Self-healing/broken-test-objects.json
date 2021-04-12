@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Registration/div_Please fill all mandatory fields",
+      "brokenLocator": "//div[@id\u003d\u0027formId\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form[@id\u003d\u0027registration\u0027]/div/div[3]/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Registration/div_Please fill all mandatory fields_idRelative.png"
+    }
+  ]
 }

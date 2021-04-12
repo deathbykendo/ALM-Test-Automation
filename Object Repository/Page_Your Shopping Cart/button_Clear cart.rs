@@ -6,15 +6,19 @@
    <elementGuidId>c807f18a-3a66-4750-abce-ed80602ed4f1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[22]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.btn-primary.marginB20.marginL-15.col-xs-offset-4.col-sm-offset-0.hidden-print</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@type = 'button' and (text() = 'Clear cart' or . = 'Clear cart')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Clear cart' or . = 'Clear cart')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

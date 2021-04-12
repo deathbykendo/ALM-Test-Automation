@@ -66,7 +66,7 @@ WebUI.click(findTestObject('Page_Browse/a_Add to list'))
 
 WebUI.delay(3)
 
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_ShoppingTemplate_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_ShoppingTemplate_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Click on the new Shopping Template Link
 TestObject to = new TestObject('objectName')

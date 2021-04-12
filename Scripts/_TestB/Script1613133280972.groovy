@@ -16,6 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
- GlobalVariable.ShoppingTemplateName = 'wine_3525'
+int num = GlobalVariable.user_row
 
-// Edited by GIT Hub
+println("user_row: " + num)
+GlobalVariable.user_row = GlobalVariable.user_row + 1
+
+println("user_row: " + num)
+println("user_row: " + num)
+println("user_row: " + num)

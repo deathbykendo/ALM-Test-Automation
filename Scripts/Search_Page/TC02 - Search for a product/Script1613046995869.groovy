@@ -18,3 +18,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('_Common/Search/_Search_product'), [:], FailureHandling.STOP_ON_FAILURE)
 
+
+println("hello world")

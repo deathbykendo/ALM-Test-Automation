@@ -31,7 +31,7 @@ WebUI.callTestCase(findTestCase('_Common/MyCart/_EmptyCart'), [:], FailureHandli
 //--------------------------------
 int prod_count = WebUI.callTestCase(findTestCase('_Common/MyCart/_GetProductCountInCart'), [:], FailureHandling.OPTIONAL)
 
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_QuickOrder_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_QuickOrder_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Add first product
 WebUI.setText(findTestObject('Page_Quick Order/input_Item code_ItemCode1'), '577536')

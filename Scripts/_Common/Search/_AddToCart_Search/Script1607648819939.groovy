@@ -25,7 +25,7 @@ catch (Exception ex) {
 }
 
 
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_Home_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_Home_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('_Common/Search/_Search_product'), [('search_term') : search_term], FailureHandling.STOP_ON_FAILURE)
 

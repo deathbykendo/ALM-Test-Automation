@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//input[@id='j_username']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'j_username' and @name = 'j_username' and @placeholder = 'Enter your 8 digit account number' and @type = 'text']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>

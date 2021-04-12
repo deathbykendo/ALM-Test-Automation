@@ -28,7 +28,7 @@ catch (Exception e) {
 
 int prod_count = WebUI.callTestCase(findTestCase('_Common/MyCart/_GetProductCountInCart'), [:], FailureHandling.OPTIONAL)
 
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_AggregateList_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_AggregateList_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 for (i = 0; i < num_prod_to_add; i++) {
 	WebUI.sendKeys(findTestObject('Page_Browse/input_Cartons_innerAddToCartFormList' + i + '.cartonQty'), '1')	

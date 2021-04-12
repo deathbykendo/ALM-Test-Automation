@@ -12,6 +12,10 @@
       <entry>
          <key>CSS</key>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[(text() = 'Login' or . = 'Login')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

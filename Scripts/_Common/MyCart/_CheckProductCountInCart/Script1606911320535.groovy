@@ -34,7 +34,7 @@ catch (Exception ex) {
     // Do something here if they don't pass the value
 } 
 
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_MyCart_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Get the text from the element
 MyCart_text = WebUI.getText(findTestObject('Page_Your Shopping Cart/h2_My cart'))

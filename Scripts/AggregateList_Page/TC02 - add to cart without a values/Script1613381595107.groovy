@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_AggregateList_page'), [:], FailureHandling.OPTIONAL)
+WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_AggregateList_page'), [:], FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Page_Aggregate List/button_Add to Cart'))
 

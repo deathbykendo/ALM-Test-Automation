@@ -25,7 +25,7 @@ catch (Exception ex) {
 } 
 
 //#> Future: if they pass an array of prodcodes add them all
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_QuickOrder_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_QuickOrder_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 ['Cat', 'Dog', 'Elephant'].each {
 	println "Animal ${it}"

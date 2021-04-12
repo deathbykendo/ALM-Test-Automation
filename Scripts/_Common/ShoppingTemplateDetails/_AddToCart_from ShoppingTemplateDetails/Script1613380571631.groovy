@@ -21,7 +21,7 @@ templateName = GlobalVariable.ShoppingTemplateName
 
 WebUI.callTestCase(findTestCase('_Common/MyCart/_EmptyCart'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('_Common/_Goto_page/_Goto_ShoppingTemplateDetails_page'), [('templateName') : templateName], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Common/Goto_page/_Goto_ShoppingTemplateDetails_page'), [('templateName') : templateName], FailureHandling.STOP_ON_FAILURE)
 
 prod_count = WebUI.callTestCase(findTestCase('_Common/ShoppingTemplateDetails/_GetProductCountIn Template'), [:], FailureHandling.STOP_ON_FAILURE)
 
